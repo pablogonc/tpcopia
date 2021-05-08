@@ -1,0 +1,5 @@
+[INFO] 19:05:15:270 MongoStore/(30679:30679): Iniciando servidor I Mongo Store
+[INFO] 19:05:15:270 MongoStore/(30679:30679): I Mongo Store: - listo para recibir al cliente
+[INFO] 19:05:31:219 MongoStore/(30679:30679): I Mongo Store: - Cliente Conectado
+[INFO] 19:05:55:252 MongoStore/(30679:30679): :- Recibido - 'store hola'
+[WARNING] 19:06:07:996 MongoStore/(30679:30679): el cliente se desconecto. Terminando servidor
