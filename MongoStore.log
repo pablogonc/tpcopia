@@ -1,0 +1,24 @@
+[INFO] 11:07:05:107 MongoStore/(9762:9762): Iniciando servidor I Mongo Store
+[INFO] 11:07:05:107 MongoStore/(9762:9762): I Mongo Store: - listo para recibir al cliente
+[INFO] 11:07:14:937 MongoStore/(9762:9762): I Mongo Store: - Cliente Conectado
+[INFO] 11:07:22:902 MongoStore/(9762:9762): :- Recibido - 'store hola'
+[WARNING] 11:07:26:734 MongoStore/(9762:9762): el cliente se desconecto. Terminando servidor
+[INFO] 11:09:32:969 MongoStore/(10262:10262): Iniciando servidor I Mongo Store
+[INFO] 11:09:32:975 MongoStore/(10262:10262): I Mongo Store: - listo para recibir al cliente
+[INFO] 11:09:44:992 MongoStore/(10535:10535): Iniciando servidor I Mongo Store
+[INFO] 11:09:45:000 MongoStore/(10535:10535): I Mongo Store: - listo para recibir al cliente
+[INFO] 11:09:57:527 MongoStore/(10535:10535): I Mongo Store: - Cliente Conectado
+[WARNING] 11:09:59:557 MongoStore/(10535:10535): el cliente se desconecto. Terminando servidor
+[INFO] 11:14:38:566 MongoStore/(11182:11182): Iniciando servidor I Mongo Store
+[INFO] 11:14:38:573 MongoStore/(11182:11182): I Mongo Store: - listo para recibir al cliente
+[INFO] 11:14:40:749 MongoStore/(11182:11182): I Mongo Store: - Cliente Conectado
+[WARNING] 11:14:43:732 MongoStore/(11182:11182): el cliente se desconecto. Terminando servidor
+[INFO] 11:14:50:757 MongoStore/(11436:11436): Iniciando servidor I Mongo Store
+[INFO] 11:14:50:765 MongoStore/(11436:11436): I Mongo Store: - listo para recibir al cliente
+[INFO] 11:14:57:902 MongoStore/(11436:11436): I Mongo Store: - Cliente Conectado
+[WARNING] 11:14:59:972 MongoStore/(11436:11436): el cliente se desconecto. Terminando servidor
+[INFO] 11:15:10:617 MongoStore/(11702:11702): Iniciando servidor I Mongo Store
+[INFO] 11:15:10:618 MongoStore/(11702:11702): I Mongo Store: - listo para recibir al cliente
+[INFO] 11:15:19:053 MongoStore/(11702:11702): I Mongo Store: - Cliente Conectado
+[INFO] 11:15:26:331 MongoStore/(11702:11702): :- Recibido - 'store hola'
+[WARNING] 11:15:29:715 MongoStore/(11702:11702): el cliente se desconecto. Terminando servidor

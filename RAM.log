@@ -1,0 +1,24 @@
+[INFO] 11:07:05:069 RAM/(9740:9740): Iniciando servidor RAM
+[INFO] 11:07:05:069 RAM/(9740:9740): RAM : - listo para recibir al cliente
+[INFO] 11:07:14:935 RAM/(9740:9740): RAM : - Cliente Conectado
+[INFO] 11:07:19:470 RAM/(9740:9740): :- Recibido - 'ram hola'
+[WARNING] 11:07:26:734 RAM/(9740:9740): el cliente se desconecto. Terminando servidor
+[INFO] 11:09:32:950 RAM/(10254:10254): Iniciando servidor RAM
+[INFO] 11:09:32:957 RAM/(10254:10254): RAM : - listo para recibir al cliente
+[INFO] 11:09:44:950 RAM/(10517:10517): Iniciando servidor RAM
+[INFO] 11:09:44:957 RAM/(10517:10517): RAM : - listo para recibir al cliente
+[INFO] 11:09:57:526 RAM/(10517:10517): RAM : - Cliente Conectado
+[WARNING] 11:09:59:557 RAM/(10517:10517): el cliente se desconecto. Terminando servidor
+[INFO] 11:14:38:587 RAM/(11193:11193): Iniciando servidor RAM
+[INFO] 11:14:38:591 RAM/(11193:11193): RAM : - listo para recibir al cliente
+[INFO] 11:14:40:748 RAM/(11193:11193): RAM : - Cliente Conectado
+[WARNING] 11:14:43:732 RAM/(11193:11193): el cliente se desconecto. Terminando servidor
+[INFO] 11:14:50:770 RAM/(11437:11437): Iniciando servidor RAM
+[INFO] 11:14:50:778 RAM/(11437:11437): RAM : - listo para recibir al cliente
+[INFO] 11:14:57:900 RAM/(11437:11437): RAM : - Cliente Conectado
+[WARNING] 11:14:59:972 RAM/(11437:11437): el cliente se desconecto. Terminando servidor
+[INFO] 11:15:10:598 RAM/(11699:11699): Iniciando servidor RAM
+[INFO] 11:15:10:606 RAM/(11699:11699): RAM : - listo para recibir al cliente
+[INFO] 11:15:19:051 RAM/(11699:11699): RAM : - Cliente Conectado
+[INFO] 11:15:23:387 RAM/(11699:11699): :- Recibido - 'ram hola'
+[WARNING] 11:15:29:715 RAM/(11699:11699): el cliente se desconecto. Terminando servidor
