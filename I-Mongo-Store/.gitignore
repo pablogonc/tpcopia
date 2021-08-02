@@ -1,1 +1,6 @@
+*.o
+*.mk
+*.d
+/Debug/I-Mongo-Store
+*.log
 /Debug/

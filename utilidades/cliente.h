@@ -8,7 +8,11 @@
 #ifndef CLIENTE_H_
 #define CLIENTE_H_
 
+#include "utilidades.h"
+
 int crear_conexion(char *, char* );
-void enviar_mensaje(char*, int );
 void liberar_conexion(int );
+
+
+
 #endif /* CLIENTE_H_ */

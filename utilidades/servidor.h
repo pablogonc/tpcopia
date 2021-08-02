@@ -13,8 +13,7 @@ int iniciar_servidor(char * ,char *);
 
 int esperar_cliente(int);
 
-int recibir_operacion(int);
 
-char* recibir_mensaje(int );
+
 
 #endif /* SERVIDOR_H_ */

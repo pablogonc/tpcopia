@@ -1,1 +1,6 @@
+*.o
+*.mk
+*.d
+/Debug/libtutilidades.so
+*.xml
 /Debug/

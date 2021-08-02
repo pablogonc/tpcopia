@@ -1,1 +1,6 @@
+*.o
+*.mk
+*.d
+/Debug/Mi-RAMHQ
+*.log
 /Debug/
