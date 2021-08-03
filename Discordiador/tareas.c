@@ -24,10 +24,10 @@ int moversex(uint32_t* pos,Tripulante * tripulante){
 		agregar_a_paquete(p,&tripulante->Y,sizeof(uint32_t));
 		enviar_paquete(p,tripulante->ramSocket);
 		eliminar_paquete(p);
-		return 1;
+		return Tarea_Ejecutada;
 	}
 
-	return 0;
+	return Tarea_Completada;
 }
 int moversey(uint32_t* pos,Tripulante * tripulante){
 	uint32_t pos1 = *pos;
@@ -42,10 +42,11 @@ int moversey(uint32_t* pos,Tripulante * tripulante){
 		agregar_a_paquete(p,&tripulante->Y,sizeof(uint32_t));
 		enviar_paquete(p,tripulante->ramSocket);
 		eliminar_paquete(p);
-		return 1;
+
+		return Tarea_Ejecutada;
 	}
 
-	return 0;
+	return Tarea_Completada;
 }
 
 
@@ -63,41 +64,16 @@ int operacionES(int* magicNumber,Tripulante* tripulante){
 	 //recibir_operacion(tripulante->storeSocket);
 	 //largo_paquete(tripulante->storeSocket);
 
-	return -3;
+	return Tarea_ES;
 }
-
-
-/*void trabajar(Tripulante* tripulante,t_list* instrucciones){
-
-	int (*instruccion)(void);
-
-	instruccion = list_get(instrucciones,0);
-	if(instruccion()==-1){
-		list_remove(instrucciones,0);
-	}
-
-
-	separar las tareas normales:
-		switch-case para ver que no sean tareas de i/o  las tareas normales caen en default
-		obtener las posiciones
-		y obtener el tiempo de espera
-	comprobar si tiene que moverse o no
-	en caso de q si:
-	se mueve 1 paso y verifica quantum
-	en caso de q no:
-	hacer 1 paso de la tarea (contar 1 de cpu) y verificar quantum
-
-		case generarOxigeno
-
-}*/
 
 
 int esperar(int* tiempo,Tripulante * tripulante){
 
 	if(--(*tiempo)){
-		return 1;
+		return Tarea_Ejecutada;
 	}else{
-		return 0;
+		return Tarea_Completada;
 	}
 }
 
@@ -120,6 +96,7 @@ int invocarFSCK(int* sabotaje ,Tripulante * tripulante){
 		return -1; //todo ver
 	}
 }
+
 void separarEnInstrucciones(char* tarea,t_list* instrucciones,Tripulante* tripulante){
 	list_destroy(instrucciones);
 	instrucciones = list_create();

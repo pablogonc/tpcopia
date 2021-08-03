@@ -36,4 +36,12 @@ typedef struct {
     int parametro;
 }Instruccion;
 
+typedef enum
+{
+	//consola
+	Tarea_Ejecutada,
+	Tarea_Completada,
+	Tarea_ES
+}estadosTarea;
+
 #endif /* TAREAS_H_ */

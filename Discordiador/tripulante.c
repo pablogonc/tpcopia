@@ -45,41 +45,35 @@ int iniciar_tripulante(Tripulante * tripulante){
 				store_socket = conectar_con("store.config");
 				tripulante->storeSocket=store_socket;
 				informar_inicio(tripulante,ram_socket);
-				tarea = pedirTarea(tripulante,ram_socket);
-				if( tarea != NULL ){ //habian tareas para asignar
-					separarEnInstrucciones(tarea,tripulante->instrucciones,tripulante);
-				}
-				//pthread_mutex_lock(&mutexTripulantes);
-				if(planificando){
-					sem_post(semPlanificacion);
-				}
 
-				//pthread_mutex_unlock(&mutexMain);
+				actualizarTarea(tripulante,tarea);
 
 				break;
+
 			case TRABAJANDO:
-				trabajando(tripulante, tripulante->instrucciones, ram_socket, store_socket, tarea);
+
+				if(hayInstrucciones(tripulante,tarea)){
+					trabajando(tripulante, tripulante->instrucciones, ram_socket, store_socket, tarea);
+				}
 
 				break;
+
 			case BLOQUEADOEM:
 				//TODO
 				if(tripulante->designado==1){
 					atenderSabotaje(tripulante, tripulante->instrucciones);
 				}
+
 				break;
+
 			case BLOQUEADOES:
 				//TODO
 				bloqueoES(tripulante);
 
-				tarea = pedirTarea(tripulante,ram_socket);
-				if( tarea != NULL ){ //habian tareas para asignar
-					separarEnInstrucciones(tarea,tripulante->instrucciones,tripulante);
-				}
-				//pthread_mutex_lock(&mutexTripulantes);
-				if(planificando){
-					sem_post(semPlanificacion);
-				}
+				actualizarTarea(tripulante,tarea);
+
 				break;
+
 			case EXIT:
 				printf("error 404, file not found\n");
 
@@ -164,47 +158,39 @@ void atenderSabotaje(Tripulante * tripulante,t_list* instrucciones){
 
 
 void trabajando(Tripulante * tripulante,t_list* instrucciones, int ram_socket, int store_socket, char* tarea){
-	int laburo=0;
-	if(list_size(instrucciones)==0){
-	tarea = pedirTarea(tripulante,ram_socket);
 
-		if( tarea != NULL ){ //habian tareas para asignar
-			separarEnInstrucciones(tarea,instrucciones,tripulante);
-		}
+	int estadoTarea;
 
-		if(planificando){
-			sem_post(semPlanificacion);
-		}
+	estadoTarea = trabajar(tripulante,instrucciones, ram_socket, store_socket, tarea);
 
-	}else{
-		laburo = trabajar(tripulante,instrucciones, ram_socket, store_socket, tarea);
+	switch(estadoTarea) {
+		case Tarea_ES:
 
-		if(laburo == -3){
 			tripulante->estado ="BLOQUEADOES";
-			//pthread_mutex_lock(&mutexTripulantes);
-			if(planificando){
-				sem_post(semPlanificacion);
+			enviarInterrupcion();
+			sem_post(tripulante->sem);
+
+			break;
+
+		case Tarea_Completada:
+			list_remove(instrucciones,0);
+			sem_post(tripulante->sem);
+
+			break;
+
+		case Tarea_Ejecutada:
+
+			sleep(1);
+			tripulante->quantum += -1;
+			if(tripulante->quantum == 0){
+				enviarInterrupcion();
+			}else{
+				sem_post(tripulante->sem);
 			}
-			//sem_wait(tripulante->sem);
-		}else{
 
-			if(laburo == 1){
-				sleep(1); //esperar 1 segundos entre paso
-				tripulante->quantum += -1;
-				if(tripulante->quantum == 0){
-					//pthread_mutex_lock(&mutexTripulantes);
-					if(planificando){
-						sem_post(semPlanificacion);
-					}
-				}else{
-					sem_post(tripulante->sem);
-				}
-			}
-
-		}
-
-
+			break;
 	}
+
 
 
 }
@@ -247,16 +233,8 @@ int trabajar(Tripulante * tripulante,t_list* instrucciones, int ram_socket, int 
 	Instruccion* inst = list_get(instrucciones,0);
 	instruccion = inst->instrucion;
 
-	int retorno = instruccion(&(inst->parametro),tripulante);
-	if(retorno==0){
-		list_remove(instrucciones,0);
-		//trabajando(tripulante, instrucciones, ram_socket, store_socket, tarea);
-		return 0;
-	}
-	if(retorno == -3){
-		return -3;
-	}
-	return 1;
+	return instruccion(&(inst->parametro),tripulante);
+
 }
 
 char * pedirTarea(Tripulante * tripulante,int socketRam){
@@ -285,6 +263,7 @@ char * pedirTarea(Tripulante * tripulante,int socketRam){
 		case NOHAYTAREAS:
 			largo_paquete(socketRam);
 			expulsar(tripulante->tid,socketRam);
+			sem_post(tripulante->sem);
 			return NULL;
 			break;
 		default: //CODIGO NO ESPERADO
@@ -294,4 +273,30 @@ char * pedirTarea(Tripulante * tripulante,int socketRam){
 	largo_paquete(socketRam);
 }
 
+void enviarInterrupcion(){
+	if(planificando){
+		sem_post(semPlanificacion);
+	}
+}
 
+void actualizarTarea(Tripulante* tripulante,char* tarea){
+	tarea = pedirTarea(tripulante,tripulante->ramSocket);
+
+	if( tarea != NULL ){ //habian tareas para asignar
+		separarEnInstrucciones(tarea,tripulante->instrucciones,tripulante);
+	}
+
+	enviarInterrupcion();
+}
+
+int hayInstrucciones(Tripulante* tripulante,char* tarea){
+	if(list_size(tripulante->instrucciones)==0){
+
+		actualizarTarea(tripulante,tarea);
+
+		return 0; //se pidieron mas tareas
+	}else{
+		return 1; //hay instrucciones
+	}
+
+}
