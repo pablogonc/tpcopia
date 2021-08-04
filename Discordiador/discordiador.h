@@ -33,6 +33,7 @@ typedef enum //estados del tripu
 }estado;
 
 typedef struct {
+	int estadoPlanificador;
 	uint32_t x;
 	uint32_t y;
 } Sabotaje;
@@ -52,7 +53,7 @@ pthread_mutex_t send;
 void terminar_programa(int [2]);
 void consola(int[2]);
 void procesar_mensaje(char *,int[2]);
-void bloquearTripulantesEM(void);
+void bloquearTripulantesEM(int[]);
 void desbloquearTripulantes(void);
 void escuchar(int[]);
 //mensajes discordiador

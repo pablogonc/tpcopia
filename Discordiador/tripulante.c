@@ -180,14 +180,14 @@ void trabajando(Tripulante * tripulante,t_list* instrucciones, int ram_socket, i
 
 		case Tarea_Ejecutada:
 
-			sleep(1);
+
 			tripulante->quantum += -1;
 			if(tripulante->quantum == 0){
 				enviarInterrupcion();
 			}else{
 				sem_post(tripulante->sem);
 			}
-
+			sleep(1);
 			break;
 	}
 

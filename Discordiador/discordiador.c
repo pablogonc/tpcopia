@@ -24,13 +24,8 @@ void escuchar(int socket[]){
 		switch(cod_op){
 
 			case SABOTAJE:
-				largo_paquete(socket[STORE]);
-				//sin revisar los recibir
-				//todo
-				sabotaje_curso.x = 8;//*(uint32_t*) recibir(socket[STORE]);
-				sabotaje_curso.y = 7;//*(uint32_t*) recibir(socket[STORE]);
-				sabotaje=1;
-				bloquearTripulantesEM();
+
+				bloquearTripulantesEM(socket);
 
 				break;
 			default:
@@ -141,10 +136,7 @@ void procesar_mensaje(char *leido,int socket[2]){
 				break;
 			case 456:
 
-				sabotaje_curso.x = 8;//*(uint32_t*) recibir(socket[STORE]);
-				sabotaje_curso.y = 7;//*(uint32_t*) recibir(socket[STORE]);
-				sabotaje=1;
-				bloquearTripulantesEM();
+				bloquearTripulantesEM(socket);
 				break;
 			default:
 				log_warning(logger,"OPERACION DESCONOCIDA");
@@ -472,9 +464,16 @@ void expulsarTripulante(char * token,int socketRam){ //castea el char del tid a 
 }
 
 
-void bloquearTripulantesEM(){
+void bloquearTripulantesEM(int socket[]){
 //todo
-
+	//largo_paquete(socket[STORE]);
+	//sin revisar los recibir
+	//todo
+	sabotaje_curso.x = 8;//*(uint32_t*) recibir(socket[STORE]);
+	sabotaje_curso.y = 7;//*(uint32_t*) recibir(socket[STORE]);
+	sabotaje=1;
+	sabotaje_curso.estadoPlanificador= planificando;
+	printf("Deteniendo planificacion \n");
 	pausarPlanificacion();
 	printf("Planificacion detenida\n");
 
@@ -544,6 +543,9 @@ void desbloquearTripulantes(){
 			mover_tripulante(BloqueadoEM,Listo,tripulante->tid,"LISTO");
 			i--;
 		}
+	}
+	if(sabotaje_curso.estadoPlanificador){
+		iniciarPlanificacion();
 	}
 	/* contemplaba si se estaba planificando antes de todo pero creo que mejor la dejo en pausa por defecto
 	if(planificando==1){

@@ -4208,3 +4208,74 @@ d'
 [INFO] 17:08:07:090 MongoStore/(29997:29997): Iniciando servidor I Mongo Store 
 
 [INFO] 17:08:07:091 MongoStore/(29997:29997): I Mongo Store: - listo para recibir al cliente
+[INFO] 10:54:26:601 MongoStore/(10934:10934): iniciando filesystem... 
+
+[INFO] 10:54:26:611 MongoStore/(10934:10934): superBloque creado 
+
+[INFO] 10:54:26:611 MongoStore/(10934:10934): creado bloque...
+
+[INFO] 10:54:26:614 MongoStore/(10934:10934): bloque.bin creado 
+
+[INFO] 10:54:29:066 MongoStore/(10934:10934): filesystem iniciado 
+
+[INFO] 10:54:29:066 MongoStore/(10934:10934): Iniciando servidor I Mongo Store 
+
+[INFO] 10:54:29:066 MongoStore/(10934:10934): I Mongo Store: - listo para recibir al cliente
+[INFO] 10:54:31:532 MongoStore/(10934:10934): I Mongo Store: - Cliente Conectado
+[INFO] 10:54:39:780 MongoStore/(10934:10934): I Mongo Store: - Cliente Conectado
+[INFO] 10:54:39:782 MongoStore/(10934:10934): I Mongo Store: - Cliente Conectado
+[INFO] 10:54:39:789 MongoStore/(10934:10934): I Mongo Store: - Cliente Conectado
+[INFO] 10:54:39:799 MongoStore/(10934:10934): I Mongo Store: - Cliente Conectado
+[INFO] 10:54:39:812 MongoStore/(10934:10934): I Mongo Store: - Cliente Conectado
+[INFO] 10:54:41:499 MongoStore/(10934:10984): No estaba Saboteado
+
+[INFO] 10:54:53:505 MongoStore/(10934:10983): No estaba Saboteado
+
+[INFO] 10:55:08:235 MongoStore/(10934:10986): No estaba Saboteado
+
+[INFO] 10:55:24:243 MongoStore/(10934:10981): No estaba Saboteado
+
+[WARNING] 10:55:24:244 MongoStore/(10934:10981): Archivo size no estaba saboteado. contador: 600, size: 600
+
+[WARNING] 10:55:24:244 MongoStore/(10934:10981): Archivo block_count no estaba saboteado. cantBloques: 10, block_count: 10
+
+[WARNING] 10:55:24:244 MongoStore/(10934:10981): no habia nada saboteado
+
+[INFO] 10:56:16:956 MongoStore/(10934:10981): No estaba Saboteado
+
+[WARNING] 10:56:16:957 MongoStore/(10934:10981): Archivo size no estaba saboteado. contador: 550, size: 550
+
+[WARNING] 10:56:16:957 MongoStore/(10934:10981): Archivo block_count no estaba saboteado. cantBloques: 9, block_count: 9
+
+[WARNING] 10:56:16:957 MongoStore/(10934:10981): no habia nada saboteado
+
+[WARNING] 10:56:35:980 MongoStore/(10934:10981): el cliente se desconecto
+[WARNING] 10:56:40:979 MongoStore/(10934:10984): el cliente se desconecto
+[WARNING] 10:56:43:983 MongoStore/(10934:10983): el cliente se desconecto
+[WARNING] 10:56:44:980 MongoStore/(10934:10986): el cliente se desconecto
+[WARNING] 10:56:45:981 MongoStore/(10934:10988): el cliente se desconecto
+[INFO] 10:56:55:756 MongoStore/(10934:10934): I Mongo Store: - Cliente Conectado
+[INFO] 10:56:55:761 MongoStore/(10934:10934): I Mongo Store: - Cliente Conectado
+[INFO] 10:56:55:778 MongoStore/(10934:10934): I Mongo Store: - Cliente Conectado
+[INFO] 10:56:55:799 MongoStore/(10934:10934): I Mongo Store: - Cliente Conectado
+[INFO] 10:56:55:808 MongoStore/(10934:10934): I Mongo Store: - Cliente Conectado
+[INFO] 10:57:03:451 MongoStore/(10934:12702): No estaba Saboteado
+
+[WARNING] 10:57:03:451 MongoStore/(10934:12702): Archivo size no estaba saboteado. contador: 495, size: 495
+
+[WARNING] 10:57:03:452 MongoStore/(10934:12702): Archivo block_count no estaba saboteado. cantBloques: 8, block_count: 8
+
+[WARNING] 10:57:03:452 MongoStore/(10934:12702): no habia nada saboteado
+
+[WARNING] 10:57:03:452 MongoStore/(10934:12702): Archivo size no estaba saboteado. contador: 0, size: 0
+
+[WARNING] 10:57:03:452 MongoStore/(10934:12702): Archivo block_count no estaba saboteado. cantBloques: 1, block_count: 1
+
+[WARNING] 10:57:03:453 MongoStore/(10934:12702): no habia nada saboteado
+
+[WARNING] 10:57:14:456 MongoStore/(10934:10966): el cliente se desconecto
+[WARNING] 10:57:14:458 MongoStore/(10934:12702): el cliente se desconecto
+[WARNING] 10:57:14:458 MongoStore/(10934:12697): el cliente se desconecto
+[WARNING] 10:57:14:458 MongoStore/(10934:12700): el cliente se desconecto
+[WARNING] 10:57:14:459 MongoStore/(10934:12699): el cliente se desconecto
+[WARNING] 10:57:14:459 MongoStore/(10934:12706): el cliente se desconecto
