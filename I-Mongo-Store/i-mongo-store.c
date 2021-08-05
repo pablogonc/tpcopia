@@ -18,6 +18,10 @@ char*IP;
 void sabotaje(){
 	log_warning(logger,"mando aviso SABOTAJE");
 	t_paquete* p = crear_paquete(SABOTAJE);
+	int posx =7;
+	int posy= 8;
+	agregar_a_paquete(p,&posx,sizeof(int));
+	agregar_a_paquete(p,&posy,sizeof(int));
 	enviar_paquete(p,socket_disc);
 	eliminar_paquete(p);
 }

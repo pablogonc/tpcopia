@@ -24,7 +24,15 @@ void escuchar(int socket[]){
 		switch(cod_op){
 
 			case SABOTAJE:
+				printf("sabotaje\n");
+			/**/largo_paquete(socket[STORE]);
 
+
+				sabotaje_curso.x = /*8;*/*(uint32_t*) recibir(socket[STORE]);
+				sabotaje_curso.y = /*7;*/*(uint32_t*) recibir(socket[STORE]);
+				sabotaje=1;
+				sabotaje_curso.estadoPlanificador= planificando;
+				printf("Atendiendo sabotaje\n");
 				bloquearTripulantesEM(socket);
 
 				break;
@@ -34,7 +42,9 @@ void escuchar(int socket[]){
 		}
 	}
 }
+
 int planificadorOcupado;
+
 void iniciarVariables(){
 	//globales
 	planificadorOcupado=0;
@@ -466,13 +476,7 @@ void expulsarTripulante(char * token,int socketRam){ //castea el char del tid a 
 
 void bloquearTripulantesEM(int socket[]){
 //todo
-	//largo_paquete(socket[STORE]);
-	//sin revisar los recibir
-	//todo
-	sabotaje_curso.x = 8;//*(uint32_t*) recibir(socket[STORE]);
-	sabotaje_curso.y = 7;//*(uint32_t*) recibir(socket[STORE]);
-	sabotaje=1;
-	sabotaje_curso.estadoPlanificador= planificando;
+
 	printf("Deteniendo planificacion \n");
 	pausarPlanificacion();
 	printf("Planificacion detenida\n");

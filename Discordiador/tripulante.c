@@ -187,7 +187,7 @@ void trabajando(Tripulante * tripulante,t_list* instrucciones, int ram_socket, i
 			}else{
 				sem_post(tripulante->sem);
 			}
-			sleep(1);
+			//sleep(1);
 			break;
 	}
 

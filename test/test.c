@@ -17,7 +17,6 @@
 #include <unistd.h>
 #include <stdbool.h>
 #include <sys/stat.h>
-
 #include <commons/bitarray.h>
 
 #include <sys/mman.h>

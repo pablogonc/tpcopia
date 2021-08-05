@@ -5752,3 +5752,143 @@ p	ð÷f·2908'
 [INFO] 10:54:08:438 MongoStore/(10672:10672): Iniciando servidor I Mongo Store 
 
 [INFO] 10:54:08:438 MongoStore/(10672:10672): I Mongo Store: - listo para recibir al cliente
+[INFO] 12:56:08:482 MongoStore/(22376:22376): filesystem iniciado 
+
+[INFO] 12:56:08:491 MongoStore/(22376:22376): Iniciando servidor I Mongo Store 
+
+[INFO] 12:56:08:491 MongoStore/(22376:22376): I Mongo Store: - listo para recibir al cliente
+[INFO] 12:56:23:890 MongoStore/(22376:22376): I Mongo Store: - Cliente Conectado
+[INFO] 12:56:41:546 MongoStore/(22376:22376): I Mongo Store: - Cliente Conectado
+[INFO] 12:56:41:547 MongoStore/(22376:22376): I Mongo Store: - Cliente Conectado
+[INFO] 12:56:41:547 MongoStore/(22376:22376): I Mongo Store: - Cliente Conectado
+[INFO] 12:56:41:547 MongoStore/(22376:22376): I Mongo Store: - Cliente Conectado
+[INFO] 12:56:41:548 MongoStore/(22376:22376): I Mongo Store: - Cliente Conectado
+[INFO] 12:56:44:565 MongoStore/(22376:22620): No estaba Saboteado
+
+[WARNING] 12:56:44:565 MongoStore/(22376:22620): Archivo size no estaba saboteado. contador: 480, size: 480
+
+[WARNING] 12:56:44:566 MongoStore/(22376:22620): Archivo block_count no estaba saboteado. cantBloques: 8, block_count: 8
+
+[WARNING] 12:56:44:566 MongoStore/(22376:22620): no habia nada saboteado
+
+[INFO] 12:56:55:572 MongoStore/(22376:22623): No estaba Saboteado
+
+[WARNING] 12:56:55:574 MongoStore/(22376:22623): Archivo size no estaba saboteado. contador: 480, size: 480
+
+[WARNING] 12:56:55:575 MongoStore/(22376:22623): Archivo block_count no estaba saboteado. cantBloques: 8, block_count: 8
+
+[WARNING] 12:56:55:575 MongoStore/(22376:22623): no habia nada saboteado
+
+[WARNING] 12:58:13:692 MongoStore/(22376:22620): el cliente se desconecto
+[WARNING] 12:58:17:635 MongoStore/(22376:22621): el cliente se desconecto
+[WARNING] 12:58:17:635 MongoStore/(22376:22619): el cliente se desconecto
+[WARNING] 12:58:19:635 MongoStore/(22376:22623): el cliente se desconecto
+[WARNING] 12:58:24:637 MongoStore/(22376:22622): el cliente se desconecto
+[WARNING] 12:58:30:419 MongoStore/(22376:22584): el cliente se desconecto
+[INFO] 15:45:02:135 MongoStore/(14927:14927): filesystem iniciado 
+
+[INFO] 15:45:02:160 MongoStore/(14927:14927): Iniciando servidor I Mongo Store 
+
+[INFO] 15:45:02:160 MongoStore/(14927:14927): I Mongo Store: - listo para recibir al cliente
+[INFO] 15:45:11:776 MongoStore/(14927:14927): I Mongo Store: - Cliente Conectado
+[WARNING] 15:45:56:688 MongoStore/(14927:15248): el cliente se desconecto
+[INFO] 17:42:54:722 MongoStore/(24528:24528): filesystem iniciado 
+
+[INFO] 17:42:54:727 MongoStore/(24528:24528): Iniciando servidor I Mongo Store 
+
+[INFO] 17:42:54:727 MongoStore/(24528:24528): I Mongo Store: - listo para recibir al cliente
+[INFO] 17:42:56:712 MongoStore/(24528:24528): I Mongo Store: - Cliente Conectado
+[INFO] 17:43:24:680 MongoStore/(24528:24528): I Mongo Store: - Cliente Conectado
+[INFO] 17:43:24:681 MongoStore/(24528:24528): I Mongo Store: - Cliente Conectado
+[INFO] 17:43:24:681 MongoStore/(24528:24528): I Mongo Store: - Cliente Conectado
+[INFO] 17:43:24:681 MongoStore/(24528:24528): I Mongo Store: - Cliente Conectado
+[INFO] 17:43:24:681 MongoStore/(24528:24528): I Mongo Store: - Cliente Conectado
+[WARNING] 17:43:28:536 MongoStore/(24528:24528): mando aviso SABOTAJE
+[WARNING] 17:44:03:199 MongoStore/(24528:24869): el cliente se desconecto
+[WARNING] 17:44:03:201 MongoStore/(24528:24865): el cliente se desconecto
+[WARNING] 17:44:03:201 MongoStore/(24528:24867): el cliente se desconecto
+[WARNING] 17:44:03:201 MongoStore/(24528:24735): el cliente se desconecto
+[WARNING] 17:44:03:201 MongoStore/(24528:24866): el cliente se desconecto
+[WARNING] 17:44:03:201 MongoStore/(24528:24868): el cliente se desconecto
+[INFO] 17:47:00:280 MongoStore/(26348:26348): filesystem iniciado 
+
+[INFO] 17:47:00:291 MongoStore/(26348:26348): Iniciando servidor I Mongo Store 
+
+[INFO] 17:47:00:291 MongoStore/(26348:26348): I Mongo Store: - listo para recibir al cliente
+[INFO] 17:47:01:319 MongoStore/(26348:26348): I Mongo Store: - Cliente Conectado
+[INFO] 17:47:21:148 MongoStore/(26348:26348): I Mongo Store: - Cliente Conectado
+[INFO] 17:47:21:148 MongoStore/(26348:26348): I Mongo Store: - Cliente Conectado
+[INFO] 17:47:21:149 MongoStore/(26348:26348): I Mongo Store: - Cliente Conectado
+[INFO] 17:47:21:149 MongoStore/(26348:26348): I Mongo Store: - Cliente Conectado
+[INFO] 17:47:21:149 MongoStore/(26348:26348): I Mongo Store: - Cliente Conectado
+[WARNING] 17:47:23:334 MongoStore/(26348:26348): mando aviso SABOTAJE
+[WARNING] 17:48:27:923 MongoStore/(26348:26576): el cliente se desconecto
+[WARNING] 17:48:27:924 MongoStore/(26348:26573): el cliente se desconecto
+[WARNING] 17:48:27:924 MongoStore/(26348:26575): el cliente se desconecto
+[WARNING] 17:48:27:924 MongoStore/(26348:26549): el cliente se desconecto
+[WARNING] 17:48:27:924 MongoStore/(26348:26574): el cliente se desconecto
+[WARNING] 17:48:27:924 MongoStore/(26348:26572): el cliente se desconecto
+[INFO] 17:50:41:751 MongoStore/(28231:28231): filesystem iniciado 
+
+[INFO] 17:50:41:776 MongoStore/(28231:28231): Iniciando servidor I Mongo Store 
+
+[INFO] 17:50:41:777 MongoStore/(28231:28231): I Mongo Store: - listo para recibir al cliente
+[INFO] 17:50:43:106 MongoStore/(28231:28231): I Mongo Store: - Cliente Conectado
+[INFO] 17:50:55:445 MongoStore/(28231:28231): I Mongo Store: - Cliente Conectado
+[INFO] 17:50:55:446 MongoStore/(28231:28231): I Mongo Store: - Cliente Conectado
+[INFO] 17:50:55:447 MongoStore/(28231:28231): I Mongo Store: - Cliente Conectado
+[INFO] 17:50:55:447 MongoStore/(28231:28231): I Mongo Store: - Cliente Conectado
+[INFO] 17:50:55:448 MongoStore/(28231:28231): I Mongo Store: - Cliente Conectado
+[WARNING] 17:50:57:973 MongoStore/(28231:28231): mando aviso SABOTAJE
+[INFO] 17:50:58:467 MongoStore/(28231:28463): No estaba Saboteado
+
+[WARNING] 17:50:58:480 MongoStore/(28231:28463): Archivo size no estaba saboteado. contador: 2150, size: 2150
+
+[WARNING] 17:50:58:482 MongoStore/(28231:28463): Archivo block_count no estaba saboteado. cantBloques: 34, block_count: 34
+
+[WARNING] 17:50:58:482 MongoStore/(28231:28463): no habia nada saboteado
+
+[WARNING] 17:50:58:483 MongoStore/(28231:28463): Archivo size no estaba saboteado. contador: 0, size: 0
+
+[WARNING] 17:50:58:483 MongoStore/(28231:28463): Archivo block_count no estaba saboteado. cantBloques: 1, block_count: 1
+
+[WARNING] 17:50:58:483 MongoStore/(28231:28463): no habia nada saboteado
+
+[WARNING] 17:51:47:421 MongoStore/(28231:28231): mando aviso SABOTAJE
+[INFO] 17:51:47:422 MongoStore/(28231:28463): No estaba Saboteado
+
+[WARNING] 17:51:47:423 MongoStore/(28231:28463): Archivo size no estaba saboteado. contador: 2750, size: 2750
+
+[WARNING] 17:51:47:424 MongoStore/(28231:28463): Archivo block_count no estaba saboteado. cantBloques: 43, block_count: 43
+
+[WARNING] 17:51:47:424 MongoStore/(28231:28463): no habia nada saboteado
+
+[WARNING] 17:51:47:425 MongoStore/(28231:28463): Archivo size no estaba saboteado. contador: 0, size: 0
+
+[WARNING] 17:51:47:425 MongoStore/(28231:28463): Archivo block_count no estaba saboteado. cantBloques: 1, block_count: 1
+
+[WARNING] 17:51:47:425 MongoStore/(28231:28463): no habia nada saboteado
+
+[WARNING] 17:52:25:449 MongoStore/(28231:28463): el cliente se desconecto
+[WARNING] 17:52:31:453 MongoStore/(28231:28460): el cliente se desconecto
+[WARNING] 17:52:33:452 MongoStore/(28231:28464): el cliente se desconecto
+[WARNING] 17:52:34:452 MongoStore/(28231:28465): el cliente se desconecto
+[WARNING] 17:52:35:453 MongoStore/(28231:28462): el cliente se desconecto
+[WARNING] 17:52:39:270 MongoStore/(28231:28439): el cliente se desconecto
+[INFO] 17:55:00:173 MongoStore/(30297:30297): filesystem iniciado 
+
+[INFO] 17:55:00:179 MongoStore/(30297:30297): Iniciando servidor I Mongo Store 
+
+[INFO] 17:55:00:179 MongoStore/(30297:30297): I Mongo Store: - listo para recibir al cliente
+[INFO] 17:55:00:892 MongoStore/(30297:30297): I Mongo Store: - Cliente Conectado
+[INFO] 17:55:23:955 MongoStore/(30297:30297): I Mongo Store: - Cliente Conectado
+[INFO] 17:55:23:956 MongoStore/(30297:30297): I Mongo Store: - Cliente Conectado
+[INFO] 17:55:23:956 MongoStore/(30297:30297): I Mongo Store: - Cliente Conectado
+[INFO] 17:55:23:956 MongoStore/(30297:30297): I Mongo Store: - Cliente Conectado
+[INFO] 17:55:23:957 MongoStore/(30297:30297): I Mongo Store: - Cliente Conectado
+[WARNING] 17:55:30:684 MongoStore/(30297:30525): el cliente se desconecto
+[WARNING] 17:55:30:685 MongoStore/(30297:30526): el cliente se desconecto
+[WARNING] 17:55:30:685 MongoStore/(30297:30527): el cliente se desconecto
+[WARNING] 17:55:30:699 MongoStore/(30297:30523): el cliente se desconecto
+[WARNING] 17:55:30:731 MongoStore/(30297:30522): el cliente se desconecto
+[WARNING] 17:55:50:482 MongoStore/(30297:30494): el cliente se desconecto

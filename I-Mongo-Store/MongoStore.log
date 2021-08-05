@@ -4279,3 +4279,8 @@ d'
 [WARNING] 10:57:14:458 MongoStore/(10934:12700): el cliente se desconecto
 [WARNING] 10:57:14:459 MongoStore/(10934:12699): el cliente se desconecto
 [WARNING] 10:57:14:459 MongoStore/(10934:12706): el cliente se desconecto
+[INFO] 17:50:27:242 MongoStore/(28161:28161): filesystem iniciado 
+
+[INFO] 17:50:27:253 MongoStore/(28161:28161): Iniciando servidor I Mongo Store 
+
+[INFO] 17:50:27:253 MongoStore/(28161:28161): I Mongo Store: - listo para recibir al cliente
