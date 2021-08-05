@@ -161,10 +161,10 @@ int escuchar(int cliente){
 			//todo controlar errores que devuelva int
 			insertarEnBloque("Oxigeno",param);
 
-			p = crear_paquete(GENERAR_OXIGENO);
-			agregar_a_paquete(p,&estado,sizeof(int));
-			enviar_paquete(p,cliente);
-			eliminar_paquete(p);
+			//p = crear_paquete(GENERAR_OXIGENO);
+			//agregar_a_paquete(p,&estado,sizeof(int));
+			//enviar_paquete(p,cliente);
+			//eliminar_paquete(p);
 			sem_post(ocupado);
 			break;
 		case CONSUMIR_OXIGENO:
@@ -176,10 +176,7 @@ int escuchar(int cliente){
 
 			eliminarDeBloque("Oxigeno",param);
 
-			p= crear_paquete(CONSUMIR_OXIGENO);
-			agregar_a_paquete(p,&estado,sizeof(int));
-			enviar_paquete(p,cliente);
-			eliminar_paquete(p);
+
 			sem_post(ocupado);
 				break;
 
@@ -193,10 +190,7 @@ int escuchar(int cliente){
 				//todo controlar errores que devuelva int
 				insertarEnBloque("Oxigeno",param);
 
-				p =crear_paquete(GENERAR_COMIDA);
-				agregar_a_paquete(p,&estado,sizeof(int));
-				enviar_paquete(p,cliente);
-				eliminar_paquete(p);
+
 				sem_post(ocupado);
 				break;
 
@@ -210,10 +204,6 @@ int escuchar(int cliente){
 
 				eliminarDeBloque("Comida",param);
 
-				p= crear_paquete(CONSUMIR_COMIDA);
-				agregar_a_paquete(p,&estado,sizeof(int));
-				enviar_paquete(p,cliente);
-				eliminar_paquete(p);
 			sem_post(ocupado);
 				break;
 
@@ -226,10 +216,6 @@ int escuchar(int cliente){
 				//todo controlar errores que devuelva int
 				insertarEnBloque("Basura",param);
 
-				p =crear_paquete(GENERAR_BASURA);
-				agregar_a_paquete(p,&estado,sizeof(int));
-				enviar_paquete(p,cliente);
-				eliminar_paquete(p);
 				sem_post(ocupado);
 				break;
 
@@ -241,10 +227,6 @@ int escuchar(int cliente){
 
 			eliminarDeBloque("Basura",param);
 
-			p= crear_paquete(DESCARTAR_BASURA);
-			agregar_a_paquete(p,&estado,sizeof(int));
-			enviar_paquete(p,cliente);
-			eliminar_paquete(p);
 			sem_post(ocupado);
 			break;
 		case FSCK :

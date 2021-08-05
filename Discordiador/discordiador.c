@@ -166,6 +166,10 @@ void consola(int socket[2]){
 		free(leido);
 		leido = readline("Discordiador >");
 	}
+
+	sem_post(semMain);
+	//sem_post(semPlanificacion);
+	//sem_post(semLiberarTripulantes);
 	salir = 1;
 }
 
@@ -477,13 +481,13 @@ void expulsarTripulante(char * token,int socketRam){ //castea el char del tid a 
 void bloquearTripulantesEM(int socket[]){
 //todo
 
-	printf("Deteniendo planificacion \n");
+
 	pausarPlanificacion();
-	printf("Planificacion detenida\n");
+
 
 	sem_post(semMain);
 
-	printf("Empieza bloqueo\n");
+
 	Tripulante* tripulante;
 	bool orderById(Tripulante* a, Tripulante* b){
 		return (a->tid) < (b->tid);
@@ -513,7 +517,7 @@ void bloquearTripulantesEM(int socket[]){
 	}
 
 	//todo
-	printf("Designando tripulante\n");
+
 		Tripulante* cercano;
 		for(int i=0; i<list_size(BloqueadoEM);i++){
 			tripulante = list_get(BloqueadoEM,i);
@@ -529,7 +533,7 @@ void bloquearTripulantesEM(int socket[]){
 		cercano->designado=1;
 		sem_post(semTripulantes);
 		sem_post(cercano->sem);
-		printf("Tripulante Designado\n");
+
 
 }
 void desbloquearTripulantes(){

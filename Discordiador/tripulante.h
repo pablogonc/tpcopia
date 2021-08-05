@@ -29,7 +29,7 @@ void trabajando(Tripulante*,t_list*, int, int,char*);
 
 void informar_inicio(Tripulante*,int);
 
-int trabajar(Tripulante*,t_list*, int, int, char*);
+int trabajar(Tripulante*,t_list*);
 
 char * pedirTarea(Tripulante *,int);
 
@@ -40,5 +40,5 @@ void solicitar_proxima_tarea();
 
 void ejecutar_tarea();
 
-void bloqueoES(Tripulante *);
+void bloqueoES(Tripulante *,char*);
 #endif /* TRIPULANTE_H_ */

@@ -144,6 +144,11 @@ void separarEnInstrucciones(char* tarea,t_list* instrucciones,Tripulante* tripul
 		instruccion->parametro=numeromagico;
 		list_add(instrucciones,instruccion);
 
+		instruccion = malloc(sizeof(Instruccion));
+		instruccion->instrucion=esperar;
+		instruccion->parametro=parametroTiempo;
+		list_add(instrucciones,instruccion);
+
 	}else{
 		instruccion = malloc(sizeof(Instruccion));
 		instruccion->instrucion=esperar;

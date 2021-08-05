@@ -68,9 +68,7 @@ int iniciar_tripulante(Tripulante * tripulante){
 
 			case BLOQUEADOES:
 				//TODO
-				bloqueoES(tripulante);
-
-				actualizarTarea(tripulante,tarea);
+				bloqueoES(tripulante,tarea);
 
 				break;
 
@@ -86,9 +84,30 @@ int iniciar_tripulante(Tripulante * tripulante){
 
 	}
 }
-void bloqueoES(Tripulante * tripulante){
+void bloqueoES(Tripulante * tripulante,char* tarea){
 
 
+	int estadoTarea;
+
+	estadoTarea = trabajar(tripulante,tripulante->instrucciones);
+
+	switch(estadoTarea) {
+		case Tarea_Completada:
+			list_remove(tripulante->instrucciones,0);
+
+			actualizarTarea(tripulante,tarea);
+
+
+			break;
+
+		case Tarea_Ejecutada:
+
+			sem_post(tripulante->sem);
+			//sleep(1);
+			break;
+	}
+
+	/*
 	int op = recibir_operacion(tripulante->storeSocket);
 	largo_paquete(tripulante->storeSocket);
 
@@ -98,7 +117,7 @@ void bloqueoES(Tripulante * tripulante){
 	}else{// :/
 		log_warning(logger,"Tripulante %d: Operacion E/S No se pudo completar :/",tripulante->tid);
 	}
-
+	*/
 
 
 }
@@ -161,11 +180,11 @@ void trabajando(Tripulante * tripulante,t_list* instrucciones, int ram_socket, i
 
 	int estadoTarea;
 
-	estadoTarea = trabajar(tripulante,instrucciones, ram_socket, store_socket, tarea);
+	estadoTarea = trabajar(tripulante,instrucciones);
 
 	switch(estadoTarea) {
 		case Tarea_ES:
-
+			list_remove(tripulante->instrucciones,0);
 			tripulante->estado ="BLOQUEADOES";
 			enviarInterrupcion();
 			sem_post(tripulante->sem);
@@ -227,7 +246,7 @@ void informar_inicio(Tripulante * tripulante, int ram_socket){
 
 
 //TODO
-int trabajar(Tripulante * tripulante,t_list* instrucciones, int ram_socket, int store_socket, char* tarea){
+int trabajar(Tripulante * tripulante,t_list* instrucciones){
 
 	int (*instruccion)(int*,Tripulante*);
 	Instruccion* inst = list_get(instrucciones,0);
