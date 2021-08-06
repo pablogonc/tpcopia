@@ -17,6 +17,7 @@
 #include <stdint.h>
 #include "utilidades_discordiador.h"
 #include <math.h>
+#include <commons/config.h>
 
 enum socket {RAM,STORE};
 t_log* logger;
@@ -39,6 +40,9 @@ typedef struct {
 } Sabotaje;
 
 
+//config
+int retardoCPU;
+int duracionSabotaje;
 //
 int sabotaje;
 int planificando;

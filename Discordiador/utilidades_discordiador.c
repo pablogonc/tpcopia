@@ -18,6 +18,9 @@ void menu(){
 }
 
 int operacion(char * leido){
+	if(leido == NULL){
+		return -1;
+	}
 	if (strcmp(leido,"INICIAR_PATOTA")==0)
 		return INICIAR_PATOTA;
 	if (strcmp(leido,"LISTAR_TRIPULANTES")==0 || strcmp(leido,"1")==0)
@@ -38,12 +41,22 @@ int operacion(char * leido){
 	return -1;
 }
 
-int conectar_con(char* config_ruta){
+int conectar_con_ram(char* config_ruta){
 	t_config* config  = config_create(config_ruta);
 
-	char* ip = config_get_string_value(config,"IP");
+	char* ip = config_get_string_value(config,"IP_MI_RAM_HQ");
 
-	char* puerto = config_get_string_value(config,"PUERTO");
+	char* puerto = config_get_string_value(config,"PUERTO_MI_RAM_HQ");
+
+	return crear_conexion(ip, puerto);
+}
+
+int conectar_con_store(char* config_ruta){
+	t_config* config  = config_create(config_ruta);
+
+	char* ip = config_get_string_value(config,"IP_I_MONGO_STORE");
+
+	char* puerto = config_get_string_value(config,"PUERTO_I_MONGO_STORE");
 
 	return crear_conexion(ip, puerto);
 }

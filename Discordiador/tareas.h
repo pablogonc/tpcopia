@@ -14,6 +14,8 @@
 #include <string.h>
 #include <stdio.h>
 #include <commons/collections/list.h>
+#include <utilidades.h>
+#include "discordiador.h"
 
 int moverse(uint32_t,uint32_t,Tripulante *);
 

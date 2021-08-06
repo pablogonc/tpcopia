@@ -9,7 +9,6 @@
 // pos1=7 pos2=5 tripulante x=0 y=0
 
 #include "tareas.h"
-#include <utilidades.h>
 
 int moversex(uint32_t* pos,Tripulante * tripulante){
 	uint32_t pos1 = *pos;
@@ -73,6 +72,9 @@ int esperar(int* tiempo,Tripulante * tripulante){
 	if(--(*tiempo)){
 		return Tarea_Ejecutada;
 	}else{
+		if(sabotaje == 1){
+			return -5;
+		}
 		return Tarea_Completada;
 	}
 }
@@ -83,13 +85,12 @@ int invocarFSCK(int* sabotaje ,Tripulante * tripulante){
 	paquete = crear_paquete(FSCK);
 	enviar_paquete(paquete,tripulante->storeSocket);
 	eliminar_paquete(paquete);
-
 	if(recibir_operacion(tripulante->storeSocket) == FSCK){
 
 		largo_paquete(tripulante->storeSocket);
 		*sabotaje = -1;
 		*(int*)recibir(tripulante->storeSocket);
-		return -5;//
+		return Tarea_Completada;//
 
 	}else{
 		//algun error
@@ -98,8 +99,8 @@ int invocarFSCK(int* sabotaje ,Tripulante * tripulante){
 }
 
 void separarEnInstrucciones(char* tarea,t_list* instrucciones,Tripulante* tripulante){
-	list_destroy(instrucciones);
-	instrucciones = list_create();
+//	list_destroy(instrucciones);/////////////////////////////////////////////////////////////////
+//	instrucciones = list_create();
 	// int parametroTarea,parametroX,parametroY,parametroTiempo;
 	uint32_t parametroX;
 	uint32_t parametroY;

@@ -36,6 +36,8 @@
 	char* puerto;
 	int tiempoSincronizacion;
 	char ** posicionesSabotaje;
+	int cantidadPosicionesSabotaje;
+	int acumuladorSabotajes;
 
 //---------------------------------------------//
 
@@ -56,6 +58,10 @@
 		char caracterLlenado;
 		char MD5[32]; // ej.: BD1014D173BA92CC014850A7087E254E  hay q ver como se calcula.
 	}file_t;
+
+	file_t* fileOxigeno;
+	file_t* fileComida;
+	file_t* fileBasura;
 
 /*	typedef enum{
 		Oxigeno,

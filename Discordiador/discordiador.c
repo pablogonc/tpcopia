@@ -9,11 +9,10 @@
 
 //variables
 ///////
-int gradoMultiTarea=2;
+int gradoMultiTarea;
 char* algoritmoPlanificacion="RR";
 int quantum=3;
 int salir = 0;
-
 
 
 void escuchar(int socket[]){
@@ -51,6 +50,16 @@ void iniciarVariables(){
 	sabotaje=0;
 	planificando = 0;
 
+	//config
+
+	t_config* discoConfig = config_create("discordiador.config");
+	gradoMultiTarea = config_get_int_value(discoConfig,"GRADO_MULTITAREA");
+	algoritmoPlanificacion = config_get_string_value(discoConfig,"ALGORITMO");
+	quantum = config_get_int_value(discoConfig,"QUANTUM");
+	duracionSabotaje = config_get_int_value(discoConfig,"DURACION_SABOTAJE");
+	retardoCPU = config_get_int_value(discoConfig,"RETARDO_CICLO_CPU");
+
+
 	//semaforos
 	semLiberarTripulantes = (sem_t*)malloc(sizeof(sem_t));
 	sem_init(semLiberarTripulantes,1,0);
@@ -84,8 +93,8 @@ int main(void){
 	logger = log_create("Discordiador.log", "Discordiador", 1, LOG_LEVEL_DEBUG);
 
 	int socket[2];
-	socket[RAM] = conectar_con("mi-RAM_HQ.config");
-	socket[STORE] = conectar_con("store.config");
+	socket[RAM] = conectar_con_ram("discordiador.config");
+	socket[STORE] = conectar_con_store("discordiador.config");
 
 	iniciarVariables();
 
@@ -100,7 +109,7 @@ int main(void){
 		sem_wait(semMain);
 		if(sabotaje){
 			sem_wait(semLiberarTripulantes);
-			sleep(3);
+			//sleep(3);
 			printf("Desbloqueado todo\n");
 			desbloquearTripulantes();
 		}
@@ -145,7 +154,6 @@ void procesar_mensaje(char *leido,int socket[2]){
 				dumpMemoria(socket[RAM]);
 				break;
 			case 456:
-
 				bloquearTripulantesEM(socket);
 				break;
 			default:
@@ -168,8 +176,8 @@ void consola(int socket[2]){
 	}
 
 	sem_post(semMain);
-	//sem_post(semPlanificacion);
-	//sem_post(semLiberarTripulantes);
+	sem_post(semPlanificacion);
+	sem_post(semLiberarTripulantes);
 	salir = 1;
 }
 
@@ -191,25 +199,28 @@ void iniciarPatota(char * instruccion,int socketRam){
 
 	void * aux;
 	int acumulador = 0;
-	uint32_t *tamanio = malloc(sizeof(uint32_t));
+	//uint32_t *tamanio = malloc(sizeof(uint32_t));
 
 	while(!feof(f)){ //
 		getline(&linea,&len,f); //esto me mete todo el texto junto no lo manda por linea
+		aux = realloc(aux,strlen(linea)+1+acumulador);
 
+		/*
 		aux = realloc(aux,strlen(linea)+sizeof(uint32_t)+1+acumulador);
 		*tamanio = strlen(linea)+1;
 		memcpy(aux+acumulador,tamanio,sizeof(uint32_t));
-
 		acumulador += sizeof(uint32_t);
+		*/
+
 		memcpy(aux+acumulador,linea,strlen(linea)+1);
 		acumulador += strlen(linea)+1;
 	}
-
+	/*
 	aux = realloc(aux,sizeof(uint32_t)+acumulador);
 	*tamanio = 0;
 	memcpy(aux+acumulador,tamanio,sizeof(uint32_t));
-
 	acumulador += sizeof(uint32_t);
+	 */
 
 	agregar_a_paquete(paquete,aux,acumulador);
 
@@ -284,6 +295,7 @@ void planificar(){
 	for(int i =0;i<list_size(Trabajando);i++){
 			tripulante = list_get(Trabajando,i);
 			if(strcmp(tripulante->estado,"BLOQUEADOES")==0){
+				log_info(logger, "Tripulante movido  a BLOQUEADOES");
 				mover_tripulante(Trabajando,BloqueadoES,tripulante->tid,"BLOQUEADOES");
 				i--;
 			}
@@ -294,7 +306,7 @@ void planificar(){
 				tripulante = list_get(BloqueadoES,i);
 
 				if(strcmp(tripulante->estado,"LISTO")==0){
-					log_info(logger, "Tripulante movido  a listo");
+					//log_info(logger, "Tripulante movido  a listo");
 					mover_tripulante(BloqueadoES,Listo,tripulante->tid,"LISTO");
 					//sem_wait(tripulante->sem);
 					i--;

@@ -171,6 +171,7 @@ int agregarInstruccionesSegmentacion (uint32_t pid, uint32_t tamanio, void* inst
 }
 
 void* buscarInstruccionSegmentacion (uint32_t tid, int posicion){
+	/*
 	int acumulador;
 	void* ip;
 	uint32_t posTareas;
@@ -188,8 +189,8 @@ void* buscarInstruccionSegmentacion (uint32_t tid, int posicion){
 		ip += sizeof(uint32_t) + *sizeTarea;
 	}
 	return ip;
+*/
 
-/*
 	int acumulador;
 	void* ip;
 	uint32_t posTareas;
@@ -200,18 +201,18 @@ void* buscarInstruccionSegmentacion (uint32_t tid, int posicion){
 	posTareas = pcbEnMemoria -> tareas;
 	ip = memoriaPrincipal + posTareas;
 
-	----------------
+	//----------------
 	for(acumulador = 0; acumulador < posicion; acumulador++){
 		char* auxiliar = ip;
 		uint32_t sizeTarea = (uint32_t) strlen(auxiliar);
-		if(*(auxiliar + sizeTarea -1) == EOF){
+		if(*(auxiliar + sizeTarea - 1) != '\n'){
 			return NULL;
 		}
 		ip += sizeTarea + 1;
 	}
 	return ip;
-	-----------------
-*/
+	//-----------------
+
 }
 
 int quitarInstruccionesSegmentacion (uint32_t codigoUnicoTareas){

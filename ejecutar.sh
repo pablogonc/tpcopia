@@ -6,5 +6,3 @@ terminator -e 'LD_LIBRARY_PATH="utilidades/Debug" ./I-Mongo-Store/Debug/I-Mongo-
 
 terminator -e 'LD_LIBRARY_PATH="utilidades/Debug" ./Mi-RAMHQ/Debug/Mi-RAMHQ ' &
 
-
-'LD_LIBRARY_PATH="../utilidades/Debug"

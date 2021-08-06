@@ -141,7 +141,7 @@ int buscarBloqueVacio(){
 		}
 	}
 	bitarray_set_bit(superBloque.bitmap,i);
-	update_bitmap_file();
+	//update_bitmap_file();
 	return i;
 
 }
@@ -176,8 +176,8 @@ int escribirBloque(file_t** file){
 		block[(*file)->blocks[(*file)->block_count-1]][indice] = (*file)->caracterLlenado;
 
 	}
-	updateIms(file);
-	updateBlock();
+	//updateIms(file);
+	//updateBlock();
 
 	return 0;
 }
@@ -204,13 +204,13 @@ void borrarBloque(file_t** file){
 		free((*file)->blocks);
 		(*file)->blocks = aux;
 		bitarray_clean_bit(superBloque.bitmap,lastBlock);
-		update_bitmap_file();
+		//update_bitmap_file();
 		printf("es libre\n");
 
 
 	}
-	updateIms(file);
-	updateBlock();
+	//updateIms(file);
+	//updateBlock();
 
 }
 
@@ -278,6 +278,22 @@ void updateBlock(){ //teoricamente es valido todo
 	fclose(bloqueFile);
 }
 
+void update(){
+	update_bitmap_file();
+	updateBlock();
+	if(fileOxigeno!=NULL){
+	updateIms(&fileOxigeno);
+	}
+	if(fileComida!=NULL){
+		updateIms(&fileComida);
+	}
+	if(fileBasura!=NULL){
+		updateIms(&fileBasura);
+	}
+	log_info(logger,"Sincronizacion completada");
+
+}
+
 //-----------------------FILE
 
 void obtenerFile(file_t** file,char* nombre){
@@ -285,7 +301,10 @@ void obtenerFile(file_t** file,char* nombre){
 	if(!access(string_from_format("%s/Files/%s.ims", puntoDeMontaje,nombre),F_OK)==0){
 		crearArchivo(file,nombre);
 	}else{
-		leerArchivo(file,nombre);
+		if((*file) == NULL){
+			leerArchivo(file,nombre);
+		}
+		//leerArchivo(file,nombre);
 	}
 
 
@@ -297,6 +316,7 @@ void obtenerFile(file_t** file,char* nombre){
 }
 
 void crearArchivo(file_t** aux,char* nombre){ //nombre = Oxigeno   sin .ims
+
 	(*aux) = malloc(sizeof(file_t));
 	(*aux)->blocks = malloc(sizeof(int));
 	(*aux)->size = 0;
@@ -386,22 +406,35 @@ void leerArchivo(file_t** aux,char* nombre){
 }*/
 
 void leerArchivo(file_t** aux,char* nombre){
+	if(strcmp(nombre,"Oxigeno")==0){
+		(*aux) = fileOxigeno;
+	}
+	if(strcmp(nombre,"Basura")==0){
+		(*aux) = fileBasura;
+	}
+	if(strcmp(nombre,"Comida")==0){
+		(*aux) = fileComida;
+	}
+	if((*aux)==NULL){
 
-	(*aux) = malloc(sizeof(file_t));
+		(*aux) = malloc(sizeof(file_t));
 
-	char * path = string_from_format("%s/Files/%s.ims",puntoDeMontaje,nombre);
+		char * path = string_from_format("%s/Files/%s.ims",puntoDeMontaje,nombre);
 
-	(*aux)->size = atoi(charFromFile(path,"SIZE"));
+		(*aux)->size = atoi(charFromFile(path,"SIZE"));
 
-	(*aux)->block_count = atoi(charFromFile(path,"BLOCK_COUNT"));
+		(*aux)->block_count = atoi(charFromFile(path,"BLOCK_COUNT"));
 
-	char* arrayNumbers = charFromFile(path,"BLOCKS");
+		char* arrayNumbers = charFromFile(path,"BLOCKS");
 
-	getArrayV2(&((*aux)->blocks) ,arrayNumbers,(*aux)->block_count);
-	free(arrayNumbers);
-	(*aux)->caracterLlenado = charFromFile(path,"CARACTER_LLENADO")[0];
+		getArrayV2(&((*aux)->blocks) ,arrayNumbers,(*aux)->block_count);
+		free(arrayNumbers);
+		(*aux)->caracterLlenado = charFromFile(path,"CARACTER_LLENADO")[0];
 
-	strcpy((*aux)->MD5,charFromFile(path,"MD5_ARCHIVO"));
+		strcpy((*aux)->MD5,charFromFile(path,"MD5_ARCHIVO"));
+
+	}
+
 /*
 	printf("\nSIZE=%d\n",(*aux)->size);
 	printf("BLOCK_COUNT=%d\n",(*aux)->block_count);
@@ -423,35 +456,83 @@ void leerArchivo(file_t** aux,char* nombre){
 }
 
 void insertarEnBloque(char* nombre,int cantidad){
-	file_t* aux;
-	obtenerFile(&aux,nombre);
-	for(int i=0;i<cantidad;i++){
-		escribirBloque(&aux); //ver que hacer con estado
-		//sleep(1);
+	if(strcmp(nombre,"Oxigeno")==0){
+
+		obtenerFile(&fileOxigeno,nombre);
+			for(int i=0;i<cantidad;i++){
+
+				escribirBloque(&fileOxigeno); //ver que hacer con estado
+				//sleep(1);
+			}
 	}
-	free(aux->blocks);
-	free(aux);
+	if(strcmp(nombre,"Basura")==0){
+
+		obtenerFile(&fileBasura,nombre);
+		for(int i=0;i<cantidad;i++){
+
+			escribirBloque(&fileBasura); //ver que hacer con estado
+			//sleep(1);
+		}
+	}
+	if(strcmp(nombre,"Comida")==0){
+
+	obtenerFile(&fileComida,nombre);
+		for(int i=0;i<cantidad;i++){
+
+			escribirBloque(&fileComida); //ver que hacer con estado
+			//sleep(1);
+		}
+	}
+
 
 }
 
 void eliminarDeBloque(char* nombre,int cantidad){
-	file_t* aux;
-	obtenerFile(&aux,nombre);
 	int flag=0;
-	for(int i=0;i<cantidad;i++){
-		if (aux->size >0){
-			borrarBloque(&aux); //ver que hacer con estado
-		}else{
-			flag++;
+	if(strcmp(nombre,"Oxigeno")==0){
+		obtenerFile(&fileOxigeno,nombre);
+		for(int i=0;i<cantidad;i++){
+			if (fileOxigeno->size >0){
+				borrarBloque(&fileOxigeno); //ver que hacer con estado
+			}else{
+				flag++;
+			}
+
+			//sleep(1);
 		}
 
-		//sleep(1);
 	}
+	if(strcmp(nombre,"Basura")==0){
+		obtenerFile(&fileBasura,nombre);
+		for(int i=0;i<cantidad;i++){
+			if (fileBasura->size >0){
+				borrarBloque(&fileBasura); //ver que hacer con estado
+			}else{
+				flag++;
+			}
+
+			//sleep(1);
+		}
+	}
+	if(strcmp(nombre,"Comida")==0){
+		obtenerFile(&fileComida,nombre);
+		for(int i=0;i<cantidad;i++){
+			if (fileComida->size >0){
+				borrarBloque(&fileComida); //ver que hacer con estado
+			}else{
+				flag++;
+			}
+
+			//sleep(1);
+		}
+	}
+
+
+
 	if(flag){
 		log_warning(logger,"Usted intento eliminar %d elementos mas de lo que habia, usted se tiene que arrepentir de lo que hizo",flag);
 	}
-	free(aux->blocks);
-	free(aux);
+
 }
 
 
@@ -543,11 +624,11 @@ int sabotaje1(){
 
 		//superBloque = leerSuperBloque();
 
-		log_warning(logger,"Sabotaje resuelto con exito\n");
+		log_warning(logger,"Sabotaje 1 resuelto con exito\n");
 
 		return 0;
 	} else {
-		log_info(logger,"No estaba Saboteado\n");
+		log_info(logger,"Sabotaje 1 = No estaba Saboteado. Cantidad De Bloques en el superBloque correcto\n");
 		return 1;
 	}
 }
@@ -556,7 +637,7 @@ int sabotaje1(){
 
 int validarBloques(){								// no se esta usando por ahora
 	int contadorDiscordancias=0;
-	leerBloques(superBloque);
+	leerBloques();
 	for(int i = 0; i<superBloque.blocks;i++){
 		contadorDiscordancias += validarBloque(i);
 	}
@@ -608,7 +689,9 @@ int sabotaje2(){
 
 	verificarBitmap("Basura");
 
-	update_bitmap_file();			//puede o no ir el free del buffer
+	update_bitmap_file();	//puede o no ir el free del buffer
+
+	log_info(logger,"Sabotaje 2 resuelto con exito\n");
 
 	return 0;
 }
@@ -625,6 +708,7 @@ int sabotaje3(char * nombre){
 	// conseguir los bloques que tenga el archivo
 	// contar la cantidad de cosas que tengan esos bloques.
 	// validar contra el size del archivo.
+
 
 	file_t* aux;
 	leerArchivo(&aux,nombre);
@@ -644,13 +728,13 @@ int sabotaje3(char * nombre){
 		aux->size = contador;
 		updateIms(&aux);
 
-		free(aux);
+
 		log_warning(logger,"Sabotaje 3 resuelto con exito\n");
 		return 0;
 
 	}else{
 		log_warning(logger,"Archivo size no estaba saboteado. contador: %d, size: %d\n",contador,aux->size);
-		free(aux);
+
 		return 1;
 	}
 }
@@ -688,12 +772,12 @@ int sabotaje4(char*nombre){
 		aux->block_count = cantBloques;
 		updateIms(&aux);
 
-		free(aux);
+
 		log_warning(logger,"Sabotaje 4 resuelto con exito\n");
 		return 0;
 	}else{
 		log_warning(logger,"Archivo block_count no estaba saboteado. cantBloques: %d, block_count: %d\n",cantBloques,aux->block_count);
-		free(aux);
+
 		return 1;
 	}
 
@@ -735,16 +819,56 @@ int sabotaje5(char*nombre){
 		eliminarDeBloque(nombre,size);
 		insertarEnBloque(nombre,size);
 		log_warning(logger,"sabotaje 5 resuelto con exito\n");
-		free(aux->blocks);
-		free(aux);
+
+
 		return 0;
 	}else{
 		log_warning(logger,"no habia nada saboteado\n");
-		free(aux->blocks);
-		free(aux);
+
 		return 1;
 	}
 }
 
+void sincronizar(){
+	while(1){
+		sleep(tiempoSincronizacion);
+		sem_wait(ocupado);
+		update();
 
+		sem_post(ocupado);
+	}
+}
+
+
+//POSICIONES SABOTAJES
+
+
+int tamanioPosicionesSabotaje(){
+
+	int i = 0;
+	while(posicionesSabotaje[i]!=NULL){
+
+		//printf("posicion %d : %s\n",i,posicionesSabotaje[i]);
+		i++;
+	}
+	return i;
+
+}
+
+int * posicionSabotaje(){
+	int * coords = malloc(sizeof(int)*2);
+
+	coords[0] = atoi(strtok(posicionesSabotaje[acumuladorSabotajes],"|"));
+	coords[1] = atoi(strtok(NULL," "));
+
+	//printf("posicion X = %d, posicion Y = %d\n",coords[0],coords[1]);
+
+	acumuladorSabotajes++;
+
+	if(acumuladorSabotajes == cantidadPosicionesSabotaje){
+		acumuladorSabotajes = 0;
+	}
+	return coords;
+
+}
 

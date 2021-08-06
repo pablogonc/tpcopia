@@ -40,9 +40,9 @@ int iniciar_tripulante(Tripulante * tripulante){
 		switch(getEstado(tripulante->tid)){
 			case LLEGADA:
 
-				ram_socket = conectar_con("mi-RAM_HQ.config");
+				ram_socket = conectar_con_ram("discordiador.config");
 				tripulante->ramSocket=ram_socket;
-				store_socket = conectar_con("store.config");
+				store_socket = conectar_con_store("discordiador.config");
 				tripulante->storeSocket=store_socket;
 				informar_inicio(tripulante,ram_socket);
 
@@ -74,7 +74,7 @@ int iniciar_tripulante(Tripulante * tripulante){
 
 			case EXIT:
 				printf("error 404, file not found\n");
-
+				list_destroy(tripulante->instrucciones);
 				liberar_conexion(ram_socket);
 				liberar_conexion(store_socket);
 				return 1;
@@ -96,14 +96,13 @@ void bloqueoES(Tripulante * tripulante,char* tarea){
 			list_remove(tripulante->instrucciones,0);
 
 			actualizarTarea(tripulante,tarea);
-
+			log_info(logger, "Tripulante movido  a listo");
 
 			break;
 
 		case Tarea_Ejecutada:
-
+			sleep(retardoCPU);
 			sem_post(tripulante->sem);
-			//sleep(1);
 			break;
 	}
 
@@ -139,6 +138,10 @@ void prepararSabotaje(Tripulante * tripulante,t_list* instrucciones){
 	instruccion->parametro=&sabotaje;
 	list_add(aux,instruccion);
 
+	instruccion = malloc(sizeof(Instruccion));
+	instruccion->instrucion=esperar;
+	instruccion->parametro=&duracionSabotaje;
+	list_add(aux,instruccion);
 
 	while(0<list_size(instrucciones)){
 		list_add(aux,list_remove(instrucciones,0));
@@ -158,7 +161,7 @@ void atenderSabotaje(Tripulante * tripulante,t_list* instrucciones){
 	Instruccion* inst = list_get(instrucciones,0);
 	instruccion = inst->instrucion;
 	int retorno = instruccion((inst->parametro),tripulante);
-	if(retorno==0 || retorno == -5){
+	if(retorno==1 || retorno == -5){
 		list_remove(instrucciones,0);
 
 	}
@@ -206,7 +209,7 @@ void trabajando(Tripulante * tripulante,t_list* instrucciones, int ram_socket, i
 			}else{
 				sem_post(tripulante->sem);
 			}
-			//sleep(1);
+			sleep(retardoCPU);
 			break;
 	}
 

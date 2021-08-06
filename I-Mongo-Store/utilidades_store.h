@@ -39,7 +39,11 @@
 	void getArrayV2(int**,char* texto,int tamanio);
 	int getKeyLine(FILE* ,char* ,int*);
 	char* charFromFile(char* ,char* );
+//
+	void sincronizar();
 
+	int tamanioPosicionesSabotaje();
+	int * posicionSabotaje();
 #endif /* UTILIDADES_STORE_H_ */
 
 	/* orden de cosas:

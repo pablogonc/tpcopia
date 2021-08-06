@@ -15,7 +15,8 @@
 #include <semaphore.h>
 void menu();
 int operacion(char *);
-int conectar_con(char*);
+int conectar_con_ram(char*);
+int conectar_con_store(char*);
 void mostrar(t_list*,char*);
 char * nombreOperacionES(int);
 t_list * lista_patotas;

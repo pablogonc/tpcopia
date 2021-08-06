@@ -17,6 +17,7 @@
 #include <unistd.h>
 #include <stdbool.h>
 #include <sys/stat.h>
+
 #include <commons/bitarray.h>
 
 #include <sys/mman.h>
@@ -41,10 +42,10 @@ int contarcomas(char* string){
 }
 
 int main(){
-	int var =0;
-	if(var){
-		printf("hola");
-	}
+	char prueba[] = "[1,2,3,4,5,6,700,1234,52,112,414,200]";
+	int comas = contarcomas(prueba);
+	printf("comas = %d\n",comas);
+	return 0;
 }
 
 

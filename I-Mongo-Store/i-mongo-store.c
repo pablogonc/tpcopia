@@ -16,14 +16,17 @@ int socket_disc;
 char*IP;
 
 void sabotaje(){
+	sem_wait(ocupado);
 	log_warning(logger,"mando aviso SABOTAJE");
 	t_paquete* p = crear_paquete(SABOTAJE);
-	int posx =7;
-	int posy= 8;
-	agregar_a_paquete(p,&posx,sizeof(int));
-	agregar_a_paquete(p,&posy,sizeof(int));
+
+	int *coords = posicionSabotaje();
+
+	agregar_a_paquete(p,&coords[0],sizeof(int));
+	agregar_a_paquete(p,&coords[1],sizeof(int));
 	enviar_paquete(p,socket_disc);
 	eliminar_paquete(p);
+	free(coords);
 }
 
 
@@ -41,8 +44,14 @@ int main(void){
 	puntoDeMontaje = config_get_string_value(config,"PUNTO_MONTAJE");
 	puerto = config_get_string_value(config,"PUERTO");
 	tiempoSincronizacion = config_get_int_value(config,"TIEMPO_SINCRONIZACION");
+
 	posicionesSabotaje =  config_get_array_value(config, "POSICIONES_SABOTAJE");
 	IP = config_get_string_value(config, "IP");
+	cantidadPosicionesSabotaje = tamanioPosicionesSabotaje();
+	acumuladorSabotajes = 0;
+
+	posicionSabotaje();
+
 //--------------------------------- Estructuras ------------------------------------//
 
 	if(access(string_from_format("%s/SuperBloque.bin", puntoDeMontaje),F_OK)==0){
@@ -74,7 +83,7 @@ int main(void){
 	//-------------------Lectura/Generar copia de Bloques -------------//
 
 
-	leerBloques(superBloque);
+	leerBloques();
 
 	log_info(logger, "filesystem iniciado \n");
 
@@ -83,7 +92,13 @@ int main(void){
 
 
 //---------------------------------------------------------------------------------//
-	/*
+/*
+	insertarEnBloque("Oxigeno",100);
+	insertarEnBloque("Basura",100);
+	insertarEnBloque("Comida",100);
+	printf("caracter de llenado = %c\n",fileOxigeno->caracterLlenado);
+	update();
+
 	sabotaje1();
 	sabotaje2();
 
@@ -102,10 +117,14 @@ int main(void){
 	if(access(string_from_format("%s/Files/Comida.ims", puntoDeMontaje),F_OK)==0){
 		 sabotaje3("Comida");
 		 sabotaje4("Comida");
-		sabotaje5("Comida");
+		 sabotaje5("Comida");
 	}
+
 	readline(" ");
 */
+	pthread_t hiloSincronizador;
+	pthread_create(&hiloSincronizador,NULL,&sincronizar,NULL);
+
 	log_info(logger, "Iniciando servidor I Mongo Store \n");
 
 	int server= iniciar_servidor(IP,puerto);
@@ -161,10 +180,10 @@ int escuchar(int cliente){
 			//todo controlar errores que devuelva int
 			insertarEnBloque("Oxigeno",param);
 
-			//p = crear_paquete(GENERAR_OXIGENO);
-			//agregar_a_paquete(p,&estado,sizeof(int));
-			//enviar_paquete(p,cliente);
-			//eliminar_paquete(p);
+			/*p = crear_paquete(GENERAR_OXIGENO);
+			agregar_a_paquete(p,&estado,sizeof(int));
+			enviar_paquete(p,cliente);
+			eliminar_paquete(p);*/
 			sem_post(ocupado);
 			break;
 		case CONSUMIR_OXIGENO:
@@ -175,7 +194,6 @@ int escuchar(int cliente){
 			printf("parametro: %d\n",param);
 
 			eliminarDeBloque("Oxigeno",param);
-
 
 			sem_post(ocupado);
 				break;
@@ -188,8 +206,7 @@ int escuchar(int cliente){
 				printf("parametro: %d\n",param);
 
 				//todo controlar errores que devuelva int
-				insertarEnBloque("Oxigeno",param);
-
+				insertarEnBloque("Comida",param);
 
 				sem_post(ocupado);
 				break;
@@ -198,26 +215,27 @@ int escuchar(int cliente){
 			printf("estoy ocupado\n");
 			sem_wait(ocupado);
 			printf("voy a recibir cosas\n");
-				largo_paquete(cliente);
-				param = *(int*)recibir(cliente);
-				printf("parametro: %d\n",param);
 
-				eliminarDeBloque("Comida",param);
+			largo_paquete(cliente);
+			param = *(int*)recibir(cliente);
+			printf("parametro: %d\n",param);
+
+			eliminarDeBloque("Comida",param);
 
 			sem_post(ocupado);
-				break;
+			break;
 
 		case GENERAR_BASURA:
 			sem_wait(ocupado);
-				largo_paquete(cliente);
-				param = *(int*)recibir(cliente);
-				printf("parametro: %d\n",param);
+			largo_paquete(cliente);
+			param = *(int*)recibir(cliente);
+			printf("parametro: %d\n",param);
 
-				//todo controlar errores que devuelva int
-				insertarEnBloque("Basura",param);
+			//todo controlar errores que devuelva int
+			insertarEnBloque("Basura",param);
 
-				sem_post(ocupado);
-				break;
+			sem_post(ocupado);
+			break;
 
 		case DESCARTAR_BASURA:
 			sem_wait(ocupado);
@@ -256,6 +274,7 @@ int escuchar(int cliente){
 			agregar_a_paquete(p,&estado,sizeof(int));
 			enviar_paquete(p,cliente);
 			eliminar_paquete(p);
+			sem_post(ocupado);
 			break;
 		case -1:
 			log_warning(logger,"el cliente se desconecto");

@@ -1,0 +1,30 @@
+[DEBUG] 18:55:38:978 tripu/(16697:16726): mis datos son: 0 666 0
+[DEBUG] 18:55:38:992 tripu/(16697:16727): mis datos son: 0 666 0
+[DEBUG] 18:55:38:992 tripu/(16697:16725): mis datos son: 0 666 0
+[DEBUG] 18:55:39:000 tripu/(16697:16724): mis datos son: 0 666 3
+[DEBUG] 18:55:39:008 tripu/(16697:16723): mis datos son: 0 666 1
+[DEBUG] 19:00:47:656 tripu/(17302:17345): pid: mis datos son: 0 666 0
+[DEBUG] 19:00:47:660 tripu/(17302:17344): pid: mis datos son: 0 666 0
+[DEBUG] 19:00:47:664 tripu/(17302:17346): pid: mis datos son: 0 666 0
+[DEBUG] 19:00:47:669 tripu/(17302:17343): pid: mis datos son: 0 666 3
+[DEBUG] 19:00:47:673 tripu/(17302:17342): pid: mis datos son: 0 666 1
+[DEBUG] 19:02:59:325 tripu/(17561:17584):  ---- pid: ---- mis datos son: 0 666 0
+[DEBUG] 19:02:59:328 tripu/(17561:17583):  ---- pid: ---- mis datos son: 0 666 0
+[DEBUG] 19:02:59:332 tripu/(17561:17582):  ---- pid: ---- mis datos son: 0 666 0
+[DEBUG] 19:02:59:336 tripu/(17561:17581):  ---- pid: ---- mis datos son: 0 666 3
+[DEBUG] 19:02:59:345 tripu/(17561:17580):  ---- pid: ---- mis datos son: 0 666 1
+[DEBUG] 19:07:13:164 tripu/(17976:18012):  ---- pid: ---- mis datos son: 0 666 1
+[DEBUG] 19:07:13:168 tripu/(17976:18016):  ---- pid: ---- mis datos son: 0 666 0
+[DEBUG] 19:07:13:174 tripu/(17976:18013):  ---- pid: ---- mis datos son: 0 666 3
+[DEBUG] 19:07:13:176 tripu/(17976:18015):  ---- pid: ---- mis datos son: 0 666 0
+[DEBUG] 19:07:13:180 tripu/(17976:18014):  ---- pid: ---- mis datos son: 0 666 0
+[DEBUG] 19:13:19:551 tripu/(18648:18678):  ---- 666 ---- mis datos son: 666 0 0
+[DEBUG] 19:13:19:552 tripu/(18648:18679):  ---- 666 ---- mis datos son: 666 0 0
+[DEBUG] 19:13:19:556 tripu/(18648:18677):  ---- 666 ---- mis datos son: 666 0 0
+[DEBUG] 19:13:19:567 tripu/(18648:18676):  ---- 666 ---- mis datos son: 666 3 4
+[DEBUG] 19:13:19:569 tripu/(18648:18675):  ---- 666 ---- mis datos son: 666 1 1
+[DEBUG] 19:13:40:004 tripu/(18648:18711):  ---- 666 ---- mis datos son: 666 1 1
+[DEBUG] 19:13:40:007 tripu/(18648:18714):  ---- 666 ---- mis datos son: 666 0 0
+[DEBUG] 19:13:40:008 tripu/(18648:18712):  ---- 666 ---- mis datos son: 666 3 4
+[DEBUG] 19:13:40:012 tripu/(18648:18713):  ---- 666 ---- mis datos son: 666 0 0
+[DEBUG] 19:13:40:016 tripu/(18648:18715):  ---- 666 ---- mis datos son: 666 0 0

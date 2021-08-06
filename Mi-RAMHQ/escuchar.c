@@ -44,7 +44,7 @@ int escuchar(int cliente){
 
 			//////////////////////////////////numericalMsg = recibir(cliente);
 			pid = ++acumuladorPatotas;
-			content = recibir(cliente);
+			char* content = recibir(cliente);
 
 			sem_wait(loguear);
 			log_info(logger, "Iniciando la patota '%lu'", (long unsigned int) pid);
@@ -78,7 +78,7 @@ int escuchar(int cliente){
 				printf("FINAL %d\n", ocupancia -> final);
 				printf("\n");
 				unPcb = memoriaPrincipal + nodoPCB -> pcbEnMemoria;
-				auxiliar = memoriaPrincipal + unPcb->tareas + sizeof(uint32_t);
+				auxiliar = memoriaPrincipal + unPcb->tareas;
 				printf("EL TAMAÑO DEL PAQUETE ES: %d\n", (int) pSize);
 				printf("LA TAREA ES: %s\n", auxiliar);
 				ocupancia = buscarEnListaOcupancia(nodoPCB -> codigoUnicoTareas);
@@ -187,20 +187,21 @@ int escuchar(int cliente){
 			tripulante = buscarTripulante(tripulanteID);
 			uint32_t proximaInstruccion = tripulante -> proximaInstruccion;
 
-			// char* tarea =
-			uint32_t* sizeTarea = buscarInstruccion(tripulanteID, proximaInstruccion);
+			char* tarea =
+			//uint32_t* sizeTarea =
+					buscarInstruccion(tripulanteID, proximaInstruccion);
 
-			// if(tarea != NULL){
-			if (*sizeTarea > 0 ){
-				char* tarea = (char*) ((void*) sizeTarea + sizeof(uint32_t));
+			if(tarea != NULL){
+			//if (*sizeTarea > 0 ){
+				//char* tarea = (char*) ((void*) sizeTarea + sizeof(uint32_t));
 				sem_wait(loguear);
 				log_info(logger, "Enviando proxima tarea a '%d': tarea: %s.", (int) tripulanteID,tarea);
 				sem_post(loguear);
 
 				paquete = crear_paquete(RECIBIR_TAREAS);
-				//int sizeTarea = strlen(tarea);
-				// agregar_a_paquete(paquete,tarea,sizeTarea + 1);
-				agregar_a_paquete(paquete,tarea,(int) *sizeTarea);
+				int sizeTarea = strlen(tarea);
+				agregar_a_paquete(paquete,tarea,sizeTarea + 1);
+				//agregar_a_paquete(paquete,tarea,(int) *sizeTarea);
 				enviar_paquete(paquete,cliente);
 
 				sem_post(memoria);

@@ -4208,79 +4208,1528 @@ d'
 [INFO] 17:08:07:090 MongoStore/(29997:29997): Iniciando servidor I Mongo Store 
 
 [INFO] 17:08:07:091 MongoStore/(29997:29997): I Mongo Store: - listo para recibir al cliente
-[INFO] 10:54:26:601 MongoStore/(10934:10934): iniciando filesystem... 
+[INFO] 16:46:38:856 MongoStore/(927:927): filesystem iniciado 
 
-[INFO] 10:54:26:611 MongoStore/(10934:10934): superBloque creado 
+[INFO] 16:46:38:856 MongoStore/(927:927): Iniciando servidor I Mongo Store 
 
-[INFO] 10:54:26:611 MongoStore/(10934:10934): creado bloque...
+[INFO] 16:46:38:856 MongoStore/(927:927): I Mongo Store: - listo para recibir al cliente
+[INFO] 16:46:53:859 MongoStore/(927:943): Sincronizacion completada
+[INFO] 16:47:08:860 MongoStore/(927:943): Sincronizacion completada
+[INFO] 16:47:23:861 MongoStore/(927:943): Sincronizacion completada
+[INFO] 16:47:38:862 MongoStore/(927:943): Sincronizacion completada
+[INFO] 16:47:53:862 MongoStore/(927:943): Sincronizacion completada
+[INFO] 16:48:00:029 MongoStore/(927:927): I Mongo Store: - Cliente Conectado
+[INFO] 16:48:08:864 MongoStore/(927:943): Sincronizacion completada
+[INFO] 16:48:19:531 MongoStore/(927:927): I Mongo Store: - Cliente Conectado
+[INFO] 16:48:19:531 MongoStore/(927:927): I Mongo Store: - Cliente Conectado
+[INFO] 16:48:19:531 MongoStore/(927:927): I Mongo Store: - Cliente Conectado
+[INFO] 16:48:19:531 MongoStore/(927:927): I Mongo Store: - Cliente Conectado
+[INFO] 16:48:19:531 MongoStore/(927:927): I Mongo Store: - Cliente Conectado
+[INFO] 16:48:23:872 MongoStore/(927:943): Sincronizacion completada
+[INFO] 16:48:38:873 MongoStore/(927:943): Sincronizacion completada
+[INFO] 16:48:53:877 MongoStore/(927:943): Sincronizacion completada
+[INFO] 16:49:08:878 MongoStore/(927:943): Sincronizacion completada
+[INFO] 16:49:23:879 MongoStore/(927:943): Sincronizacion completada
+[INFO] 16:49:38:880 MongoStore/(927:943): Sincronizacion completada
+[INFO] 16:49:53:880 MongoStore/(927:943): Sincronizacion completada
+[INFO] 16:50:08:881 MongoStore/(927:943): Sincronizacion completada
+[INFO] 16:50:23:882 MongoStore/(927:943): Sincronizacion completada
+[WARNING] 16:50:25:817 MongoStore/(927:1418): el cliente se desconecto
+[WARNING] 16:50:25:817 MongoStore/(927:1413): el cliente se desconecto
+[WARNING] 16:50:25:817 MongoStore/(927:1417): el cliente se desconecto
+[WARNING] 16:50:25:817 MongoStore/(927:1348): el cliente se desconecto
+[WARNING] 16:50:25:817 MongoStore/(927:1416): el cliente se desconecto
+[WARNING] 16:50:25:817 MongoStore/(927:1412): el cliente se desconecto
+[INFO] 17:26:12:486 MongoStore/(7442:7442): filesystem iniciado 
 
-[INFO] 10:54:26:614 MongoStore/(10934:10934): bloque.bin creado 
+[INFO] 17:26:12:491 MongoStore/(7442:7442): Iniciando servidor I Mongo Store 
 
-[INFO] 10:54:29:066 MongoStore/(10934:10934): filesystem iniciado 
+[INFO] 17:26:12:491 MongoStore/(7442:7442): I Mongo Store: - listo para recibir al cliente
+[INFO] 17:26:15:105 MongoStore/(7442:7442): I Mongo Store: - Cliente Conectado
+[INFO] 17:26:17:273 MongoStore/(7442:7442): I Mongo Store: - Cliente Conectado
+[INFO] 17:26:17:274 MongoStore/(7442:7442): I Mongo Store: - Cliente Conectado
+[INFO] 17:26:17:277 MongoStore/(7442:7442): I Mongo Store: - Cliente Conectado
+[INFO] 17:26:17:289 MongoStore/(7442:7442): I Mongo Store: - Cliente Conectado
+[INFO] 17:26:17:298 MongoStore/(7442:7442): I Mongo Store: - Cliente Conectado
+[INFO] 17:26:27:492 MongoStore/(7442:7455): Sincronizacion completada
+[INFO] 17:27:38:542 MongoStore/(7625:7625): filesystem iniciado 
 
-[INFO] 10:54:29:066 MongoStore/(10934:10934): Iniciando servidor I Mongo Store 
+[INFO] 17:27:38:545 MongoStore/(7625:7625): Iniciando servidor I Mongo Store 
 
-[INFO] 10:54:29:066 MongoStore/(10934:10934): I Mongo Store: - listo para recibir al cliente
-[INFO] 10:54:31:532 MongoStore/(10934:10934): I Mongo Store: - Cliente Conectado
-[INFO] 10:54:39:780 MongoStore/(10934:10934): I Mongo Store: - Cliente Conectado
-[INFO] 10:54:39:782 MongoStore/(10934:10934): I Mongo Store: - Cliente Conectado
-[INFO] 10:54:39:789 MongoStore/(10934:10934): I Mongo Store: - Cliente Conectado
-[INFO] 10:54:39:799 MongoStore/(10934:10934): I Mongo Store: - Cliente Conectado
-[INFO] 10:54:39:812 MongoStore/(10934:10934): I Mongo Store: - Cliente Conectado
-[INFO] 10:54:41:499 MongoStore/(10934:10984): No estaba Saboteado
+[INFO] 17:27:38:545 MongoStore/(7625:7625): I Mongo Store: - listo para recibir al cliente
+[INFO] 17:27:42:566 MongoStore/(7625:7625): I Mongo Store: - Cliente Conectado
+[INFO] 17:27:53:546 MongoStore/(7625:7833): Sincronizacion completada
+[INFO] 17:27:58:710 MongoStore/(7625:7625): I Mongo Store: - Cliente Conectado
+[INFO] 17:27:58:713 MongoStore/(7625:7625): I Mongo Store: - Cliente Conectado
+[INFO] 17:27:58:730 MongoStore/(7625:7625): I Mongo Store: - Cliente Conectado
+[INFO] 17:27:58:736 MongoStore/(7625:7625): I Mongo Store: - Cliente Conectado
+[INFO] 17:27:58:737 MongoStore/(7625:7625): I Mongo Store: - Cliente Conectado
+[INFO] 17:28:08:546 MongoStore/(7625:7833): Sincronizacion completada
+[INFO] 17:28:23:548 MongoStore/(7625:7833): Sincronizacion completada
+[INFO] 17:28:38:556 MongoStore/(7625:7833): Sincronizacion completada
+[INFO] 17:28:53:569 MongoStore/(7625:7833): Sincronizacion completada
+[INFO] 17:29:08:579 MongoStore/(7625:7833): Sincronizacion completada
+[INFO] 17:29:23:589 MongoStore/(7625:7833): Sincronizacion completada
+[INFO] 17:29:38:606 MongoStore/(7625:7833): Sincronizacion completada
+[WARNING] 17:29:41:940 MongoStore/(7625:7869): Usted intento eliminar 15 elementos mas de lo que habia, usted se tiene que arrepentir de lo que hizo
+[WARNING] 17:29:44:946 MongoStore/(7625:7870): Usted intento eliminar 25 elementos mas de lo que habia, usted se tiene que arrepentir de lo que hizo
+[WARNING] 17:29:45:947 MongoStore/(7625:7867): Usted intento eliminar 21 elementos mas de lo que habia, usted se tiene que arrepentir de lo que hizo
+[INFO] 17:29:53:631 MongoStore/(7625:7833): Sincronizacion completada
+[WARNING] 17:29:55:968 MongoStore/(7625:7874): Usted intento eliminar 1 elementos mas de lo que habia, usted se tiene que arrepentir de lo que hizo
+[WARNING] 17:30:02:955 MongoStore/(7625:7875): Usted intento eliminar 1 elementos mas de lo que habia, usted se tiene que arrepentir de lo que hizo
+[WARNING] 17:30:06:957 MongoStore/(7625:7869): Usted intento eliminar 1 elementos mas de lo que habia, usted se tiene que arrepentir de lo que hizo
+[INFO] 17:30:08:684 MongoStore/(7625:7833): Sincronizacion completada
+[WARNING] 17:30:08:956 MongoStore/(7625:7867): Usted intento eliminar 1 elementos mas de lo que habia, usted se tiene que arrepentir de lo que hizo
+[WARNING] 17:30:09:957 MongoStore/(7625:7870): Usted intento eliminar 1 elementos mas de lo que habia, usted se tiene que arrepentir de lo que hizo
+[INFO] 17:30:23:713 MongoStore/(7625:7833): Sincronizacion completada
+[INFO] 17:30:38:741 MongoStore/(7625:7833): Sincronizacion completada
+[INFO] 17:30:53:774 MongoStore/(7625:7833): Sincronizacion completada
+[INFO] 17:31:08:808 MongoStore/(7625:7833): Sincronizacion completada
+[INFO] 17:31:23:844 MongoStore/(7625:7833): Sincronizacion completada
+[WARNING] 17:31:30:030 MongoStore/(7625:7875): el cliente se desconecto
+[WARNING] 17:31:30:032 MongoStore/(7625:7867): el cliente se desconecto
+[WARNING] 17:31:30:032 MongoStore/(7625:7874): el cliente se desconecto
+[WARNING] 17:31:30:032 MongoStore/(7625:7870): el cliente se desconecto
+[WARNING] 17:31:30:032 MongoStore/(7625:7869): el cliente se desconecto
+[WARNING] 17:31:30:032 MongoStore/(7625:7839): el cliente se desconecto
+[INFO] 17:32:06:487 MongoStore/(8232:8232): filesystem iniciado 
 
-[INFO] 10:54:53:505 MongoStore/(10934:10983): No estaba Saboteado
+[INFO] 17:32:06:491 MongoStore/(8232:8232): Iniciando servidor I Mongo Store 
 
-[INFO] 10:55:08:235 MongoStore/(10934:10986): No estaba Saboteado
+[INFO] 17:32:06:491 MongoStore/(8232:8232): I Mongo Store: - listo para recibir al cliente
+[INFO] 17:32:21:492 MongoStore/(8232:8501): Sincronizacion completada
+[INFO] 17:32:27:514 MongoStore/(8232:8232): I Mongo Store: - Cliente Conectado
+[INFO] 17:32:30:100 MongoStore/(8232:8232): I Mongo Store: - Cliente Conectado
+[INFO] 17:32:30:103 MongoStore/(8232:8232): I Mongo Store: - Cliente Conectado
+[INFO] 17:32:30:112 MongoStore/(8232:8232): I Mongo Store: - Cliente Conectado
+[INFO] 17:32:30:114 MongoStore/(8232:8232): I Mongo Store: - Cliente Conectado
+[INFO] 17:32:30:118 MongoStore/(8232:8232): I Mongo Store: - Cliente Conectado
+[INFO] 17:32:36:493 MongoStore/(8232:8501): Sincronizacion completada
+[INFO] 17:32:51:494 MongoStore/(8232:8501): Sincronizacion completada
+[INFO] 17:33:06:495 MongoStore/(8232:8501): Sincronizacion completada
+[INFO] 17:33:21:504 MongoStore/(8232:8501): Sincronizacion completada
+[INFO] 17:33:36:517 MongoStore/(8232:8501): Sincronizacion completada
+[INFO] 17:33:51:529 MongoStore/(8232:8501): Sincronizacion completada
+[INFO] 17:34:06:538 MongoStore/(8232:8501): Sincronizacion completada
+[INFO] 17:34:21:551 MongoStore/(8232:8501): Sincronizacion completada
+[INFO] 17:34:36:563 MongoStore/(8232:8501): Sincronizacion completada
+[WARNING] 17:34:38:851 MongoStore/(8232:8531): Usted intento eliminar 1 elementos mas de lo que habia, usted se tiene que arrepentir de lo que hizo
+[WARNING] 17:34:46:875 MongoStore/(8232:8533): Usted intento eliminar 1 elementos mas de lo que habia, usted se tiene que arrepentir de lo que hizo
+[INFO] 17:34:51:600 MongoStore/(8232:8501): Sincronizacion completada
+[WARNING] 17:34:52:878 MongoStore/(8232:8527): Usted intento eliminar 1 elementos mas de lo que habia, usted se tiene que arrepentir de lo que hizo
+[WARNING] 17:34:53:883 MongoStore/(8232:8529): Usted intento eliminar 1 elementos mas de lo que habia, usted se tiene que arrepentir de lo que hizo
+[WARNING] 17:34:59:876 MongoStore/(8232:8525): Usted intento eliminar 1 elementos mas de lo que habia, usted se tiene que arrepentir de lo que hizo
+[INFO] 17:35:06:630 MongoStore/(8232:8501): Sincronizacion completada
+[INFO] 17:35:21:660 MongoStore/(8232:8501): Sincronizacion completada
+[INFO] 17:35:36:686 MongoStore/(8232:8501): Sincronizacion completada
+[INFO] 17:35:51:716 MongoStore/(8232:8501): Sincronizacion completada
+[INFO] 17:36:06:741 MongoStore/(8232:8501): Sincronizacion completada
+[INFO] 17:36:21:764 MongoStore/(8232:8501): Sincronizacion completada
+[INFO] 17:36:36:787 MongoStore/(8232:8501): Sincronizacion completada
+[INFO] 17:36:51:814 MongoStore/(8232:8501): Sincronizacion completada
+[INFO] 17:37:06:837 MongoStore/(8232:8501): Sincronizacion completada
+[INFO] 17:37:21:871 MongoStore/(8232:8501): Sincronizacion completada
+[INFO] 17:37:36:909 MongoStore/(8232:8501): Sincronizacion completada
+[INFO] 17:37:51:936 MongoStore/(8232:8501): Sincronizacion completada
+[INFO] 17:38:06:968 MongoStore/(8232:8501): Sincronizacion completada
+[INFO] 17:38:17:531 MongoStore/(8232:8232): I Mongo Store: - Cliente Conectado
+[INFO] 17:38:17:536 MongoStore/(8232:8232): I Mongo Store: - Cliente Conectado
+[INFO] 17:38:17:544 MongoStore/(8232:8232): I Mongo Store: - Cliente Conectado
+[INFO] 17:38:17:548 MongoStore/(8232:8232): I Mongo Store: - Cliente Conectado
+[INFO] 17:38:17:563 MongoStore/(8232:8232): I Mongo Store: - Cliente Conectado
+[INFO] 17:38:21:991 MongoStore/(8232:8501): Sincronizacion completada
+[INFO] 17:38:37:059 MongoStore/(8232:8501): Sincronizacion completada
+[INFO] 17:38:52:084 MongoStore/(8232:8501): Sincronizacion completada
+[INFO] 17:39:07:110 MongoStore/(8232:8501): Sincronizacion completada
+[INFO] 17:39:22:151 MongoStore/(8232:8501): Sincronizacion completada
+[INFO] 17:39:37:211 MongoStore/(8232:8501): Sincronizacion completada
+[INFO] 17:39:52:271 MongoStore/(8232:8501): Sincronizacion completada
+[INFO] 17:40:07:301 MongoStore/(8232:8501): Sincronizacion completada
+[INFO] 17:40:22:335 MongoStore/(8232:8501): Sincronizacion completada
+[INFO] 17:40:37:362 MongoStore/(8232:8501): Sincronizacion completada
+[INFO] 17:40:52:405 MongoStore/(8232:8501): Sincronizacion completada
+[INFO] 17:41:07:434 MongoStore/(8232:8501): Sincronizacion completada
+[INFO] 17:41:22:457 MongoStore/(8232:8501): Sincronizacion completada
+[INFO] 17:41:37:481 MongoStore/(8232:8501): Sincronizacion completada
+[INFO] 17:41:52:518 MongoStore/(8232:8501): Sincronizacion completada
+[INFO] 17:42:07:566 MongoStore/(8232:8501): Sincronizacion completada
+[INFO] 17:42:22:600 MongoStore/(8232:8501): Sincronizacion completada
+[INFO] 17:42:37:651 MongoStore/(8232:8501): Sincronizacion completada
+[INFO] 17:42:52:682 MongoStore/(8232:8501): Sincronizacion completada
+[INFO] 17:43:07:713 MongoStore/(8232:8501): Sincronizacion completada
+[INFO] 17:43:22:737 MongoStore/(8232:8501): Sincronizacion completada
+[WARNING] 17:43:36:660 MongoStore/(8232:9009): el cliente se desconecto
+[WARNING] 17:43:36:662 MongoStore/(8232:9003): el cliente se desconecto
+[WARNING] 17:43:36:662 MongoStore/(8232:8531): el cliente se desconecto
+[WARNING] 17:43:36:662 MongoStore/(8232:8525): el cliente se desconecto
+[WARNING] 17:43:36:662 MongoStore/(8232:9005): el cliente se desconecto
+[WARNING] 17:43:36:662 MongoStore/(8232:8529): el cliente se desconecto
+[WARNING] 17:43:36:662 MongoStore/(8232:9006): el cliente se desconecto
+[WARNING] 17:43:36:673 MongoStore/(8232:8533): el cliente se desconecto
+[WARNING] 17:43:36:675 MongoStore/(8232:8527): el cliente se desconecto
+[WARNING] 17:43:36:675 MongoStore/(8232:8516): el cliente se desconecto
+[WARNING] 17:43:36:710 MongoStore/(8232:9001): el cliente se desconecto
+[INFO] 17:43:37:791 MongoStore/(8232:8501): Sincronizacion completada
+[INFO] 17:44:11:680 MongoStore/(9554:9554): filesystem iniciado 
 
-[INFO] 10:55:24:243 MongoStore/(10934:10981): No estaba Saboteado
+[INFO] 17:44:11:681 MongoStore/(9554:9554): Iniciando servidor I Mongo Store 
 
-[WARNING] 10:55:24:244 MongoStore/(10934:10981): Archivo size no estaba saboteado. contador: 600, size: 600
+[INFO] 17:44:11:686 MongoStore/(9554:9554): I Mongo Store: - listo para recibir al cliente
+[INFO] 17:44:26:686 MongoStore/(9554:9570): Sincronizacion completada
+[INFO] 17:44:41:687 MongoStore/(9554:9570): Sincronizacion completada
+[INFO] 17:44:56:688 MongoStore/(9554:9570): Sincronizacion completada
+[INFO] 17:45:03:697 MongoStore/(9554:9554): I Mongo Store: - Cliente Conectado
+[INFO] 17:45:06:222 MongoStore/(9554:9554): I Mongo Store: - Cliente Conectado
+[INFO] 17:45:06:225 MongoStore/(9554:9554): I Mongo Store: - Cliente Conectado
+[INFO] 17:45:06:230 MongoStore/(9554:9554): I Mongo Store: - Cliente Conectado
+[INFO] 17:45:06:234 MongoStore/(9554:9554): I Mongo Store: - Cliente Conectado
+[INFO] 17:45:06:242 MongoStore/(9554:9554): I Mongo Store: - Cliente Conectado
+[INFO] 17:45:11:690 MongoStore/(9554:9570): Sincronizacion completada
+[INFO] 17:45:26:691 MongoStore/(9554:9570): Sincronizacion completada
+[INFO] 17:45:41:692 MongoStore/(9554:9570): Sincronizacion completada
+[INFO] 17:45:56:706 MongoStore/(9554:9570): Sincronizacion completada
+[INFO] 17:46:11:718 MongoStore/(9554:9570): Sincronizacion completada
+[INFO] 17:46:26:729 MongoStore/(9554:9570): Sincronizacion completada
+[INFO] 17:46:41:740 MongoStore/(9554:9570): Sincronizacion completada
+[INFO] 17:46:56:751 MongoStore/(9554:9570): Sincronizacion completada
+[INFO] 17:47:11:777 MongoStore/(9554:9570): Sincronizacion completada
+[INFO] 17:47:26:807 MongoStore/(9554:9570): Sincronizacion completada
+[WARNING] 17:47:38:844 MongoStore/(9554:9910): el cliente se desconecto
+[WARNING] 17:47:38:845 MongoStore/(9554:9904): el cliente se desconecto
+[WARNING] 17:47:38:845 MongoStore/(9554:9908): el cliente se desconecto
+[WARNING] 17:47:38:845 MongoStore/(9554:9891): el cliente se desconecto
+[WARNING] 17:47:38:846 MongoStore/(9554:9906): el cliente se desconecto
+[WARNING] 17:47:38:846 MongoStore/(9554:9902): el cliente se desconecto
+[INFO] 18:24:57:829 MongoStore/(30287:30287): filesystem iniciado 
 
-[WARNING] 10:55:24:244 MongoStore/(10934:10981): Archivo block_count no estaba saboteado. cantBloques: 10, block_count: 10
+[INFO] 18:24:57:841 MongoStore/(30287:30287): No estaba Saboteado
 
-[WARNING] 10:55:24:244 MongoStore/(10934:10981): no habia nada saboteado
+[WARNING] 18:24:57:844 MongoStore/(30287:30287): Archivo size saboteado, reparando...
 
-[INFO] 10:56:16:956 MongoStore/(10934:10981): No estaba Saboteado
+[WARNING] 18:24:57:872 MongoStore/(30287:30287): Sabotaje 3 resuelto con exito
 
-[WARNING] 10:56:16:957 MongoStore/(10934:10981): Archivo size no estaba saboteado. contador: 550, size: 550
+[WARNING] 18:24:57:872 MongoStore/(30287:30287): Archivo block_count no estaba saboteado. cantBloques: 5, block_count: 5
 
-[WARNING] 10:56:16:957 MongoStore/(10934:10981): Archivo block_count no estaba saboteado. cantBloques: 9, block_count: 9
+[WARNING] 18:24:57:872 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 0, iteracion = 0 
 
-[WARNING] 10:56:16:957 MongoStore/(10934:10981): no habia nada saboteado
+[WARNING] 18:24:57:872 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 1, iteracion = 1 
 
-[WARNING] 10:56:35:980 MongoStore/(10934:10981): el cliente se desconecto
-[WARNING] 10:56:40:979 MongoStore/(10934:10984): el cliente se desconecto
-[WARNING] 10:56:43:983 MongoStore/(10934:10983): el cliente se desconecto
-[WARNING] 10:56:44:980 MongoStore/(10934:10986): el cliente se desconecto
-[WARNING] 10:56:45:981 MongoStore/(10934:10988): el cliente se desconecto
-[INFO] 10:56:55:756 MongoStore/(10934:10934): I Mongo Store: - Cliente Conectado
-[INFO] 10:56:55:761 MongoStore/(10934:10934): I Mongo Store: - Cliente Conectado
-[INFO] 10:56:55:778 MongoStore/(10934:10934): I Mongo Store: - Cliente Conectado
-[INFO] 10:56:55:799 MongoStore/(10934:10934): I Mongo Store: - Cliente Conectado
-[INFO] 10:56:55:808 MongoStore/(10934:10934): I Mongo Store: - Cliente Conectado
-[INFO] 10:57:03:451 MongoStore/(10934:12702): No estaba Saboteado
+[WARNING] 18:24:57:872 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 2, iteracion = 2 
 
-[WARNING] 10:57:03:451 MongoStore/(10934:12702): Archivo size no estaba saboteado. contador: 495, size: 495
+[WARNING] 18:24:57:872 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 5, iteracion = 3 
 
-[WARNING] 10:57:03:452 MongoStore/(10934:12702): Archivo block_count no estaba saboteado. cantBloques: 8, block_count: 8
+[WARNING] 18:24:57:872 MongoStore/(30287:30287): sabotaje 5 resuelto con exito
 
-[WARNING] 10:57:03:452 MongoStore/(10934:12702): no habia nada saboteado
+[WARNING] 18:24:57:872 MongoStore/(30287:30287): Archivo size saboteado, reparando...
 
-[WARNING] 10:57:03:452 MongoStore/(10934:12702): Archivo size no estaba saboteado. contador: 0, size: 0
+[WARNING] 18:24:57:878 MongoStore/(30287:30287): Sabotaje 3 resuelto con exito
 
-[WARNING] 10:57:03:452 MongoStore/(10934:12702): Archivo block_count no estaba saboteado. cantBloques: 1, block_count: 1
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): Archivo block_count no estaba saboteado. cantBloques: 69, block_count: 69
 
-[WARNING] 10:57:03:453 MongoStore/(10934:12702): no habia nada saboteado
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 24, iteracion = 0 
 
-[WARNING] 10:57:14:456 MongoStore/(10934:10966): el cliente se desconecto
-[WARNING] 10:57:14:458 MongoStore/(10934:12702): el cliente se desconecto
-[WARNING] 10:57:14:458 MongoStore/(10934:12697): el cliente se desconecto
-[WARNING] 10:57:14:458 MongoStore/(10934:12700): el cliente se desconecto
-[WARNING] 10:57:14:459 MongoStore/(10934:12699): el cliente se desconecto
-[WARNING] 10:57:14:459 MongoStore/(10934:12706): el cliente se desconecto
-[INFO] 17:50:27:242 MongoStore/(28161:28161): filesystem iniciado 
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 25, iteracion = 1 
 
-[INFO] 17:50:27:253 MongoStore/(28161:28161): Iniciando servidor I Mongo Store 
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 26, iteracion = 2 
 
-[INFO] 17:50:27:253 MongoStore/(28161:28161): I Mongo Store: - listo para recibir al cliente
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 27, iteracion = 3 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 28, iteracion = 4 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 29, iteracion = 5 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 30, iteracion = 6 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 31, iteracion = 7 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 32, iteracion = 8 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 33, iteracion = 9 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 34, iteracion = 10 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 35, iteracion = 11 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 36, iteracion = 12 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 37, iteracion = 13 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 38, iteracion = 14 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 39, iteracion = 15 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 40, iteracion = 16 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 41, iteracion = 17 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 42, iteracion = 18 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 43, iteracion = 19 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 44, iteracion = 20 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 45, iteracion = 21 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 46, iteracion = 22 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 47, iteracion = 23 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 48, iteracion = 24 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 49, iteracion = 25 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 50, iteracion = 26 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 16, iteracion = 27 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 17, iteracion = 28 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 52, iteracion = 29 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 53, iteracion = 30 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 54, iteracion = 31 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 20, iteracion = 32 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 23, iteracion = 33 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 51, iteracion = 34 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 55, iteracion = 35 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 11, iteracion = 36 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 56, iteracion = 37 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 13, iteracion = 38 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 57, iteracion = 39 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 62, iteracion = 40 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 78, iteracion = 41 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 79, iteracion = 42 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 80, iteracion = 43 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 81, iteracion = 44 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 82, iteracion = 45 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 83, iteracion = 46 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 84, iteracion = 47 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 85, iteracion = 48 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 86, iteracion = 49 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 87, iteracion = 50 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 88, iteracion = 51 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 90, iteracion = 52 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 91, iteracion = 53 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 92, iteracion = 54 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 93, iteracion = 55 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 94, iteracion = 56 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 95, iteracion = 57 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 96, iteracion = 58 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 97, iteracion = 59 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 98, iteracion = 60 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 99, iteracion = 61 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 100, iteracion = 62 
+
+[WARNING] 18:24:57:879 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 101, iteracion = 63 
+
+[WARNING] 18:24:57:880 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 102, iteracion = 64 
+
+[WARNING] 18:24:57:880 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 103, iteracion = 65 
+
+[WARNING] 18:24:57:880 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 89, iteracion = 66 
+
+[WARNING] 18:24:57:880 MongoStore/(30287:30287): ultimo bloque mal posicionado, bloque = 104, iteracion = 67 
+
+[WARNING] 18:24:57:880 MongoStore/(30287:30287): sabotaje 5 resuelto con exito
+
+[WARNING] 18:24:57:880 MongoStore/(30287:30287): Archivo size no estaba saboteado. contador: 0, size: 0
+
+[WARNING] 18:24:57:880 MongoStore/(30287:30287): Archivo block_count no estaba saboteado. cantBloques: 1, block_count: 1
+
+[WARNING] 18:24:57:880 MongoStore/(30287:30287): no habia nada saboteado
+
+[INFO] 18:25:16:466 MongoStore/(30328:30328): filesystem iniciado 
+
+[INFO] 18:25:16:478 MongoStore/(30328:30328): No estaba Saboteado
+
+[WARNING] 18:25:16:481 MongoStore/(30328:30328): Archivo size no estaba saboteado. contador: 0, size: 0
+
+[WARNING] 18:25:16:481 MongoStore/(30328:30328): Archivo block_count no estaba saboteado. cantBloques: 5, block_count: 5
+
+[WARNING] 18:25:16:481 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 0, iteracion = 0 
+
+[WARNING] 18:25:16:481 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 1, iteracion = 1 
+
+[WARNING] 18:25:16:481 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 2, iteracion = 2 
+
+[WARNING] 18:25:16:481 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 5, iteracion = 3 
+
+[WARNING] 18:25:16:481 MongoStore/(30328:30328): sabotaje 5 resuelto con exito
+
+[WARNING] 18:25:16:481 MongoStore/(30328:30328): Archivo size no estaba saboteado. contador: 0, size: 0
+
+[WARNING] 18:25:16:481 MongoStore/(30328:30328): Archivo block_count no estaba saboteado. cantBloques: 69, block_count: 69
+
+[WARNING] 18:25:16:481 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 24, iteracion = 0 
+
+[WARNING] 18:25:16:481 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 25, iteracion = 1 
+
+[WARNING] 18:25:16:481 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 26, iteracion = 2 
+
+[WARNING] 18:25:16:481 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 27, iteracion = 3 
+
+[WARNING] 18:25:16:482 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 28, iteracion = 4 
+
+[WARNING] 18:25:16:482 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 29, iteracion = 5 
+
+[WARNING] 18:25:16:482 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 30, iteracion = 6 
+
+[WARNING] 18:25:16:482 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 31, iteracion = 7 
+
+[WARNING] 18:25:16:482 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 32, iteracion = 8 
+
+[WARNING] 18:25:16:482 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 33, iteracion = 9 
+
+[WARNING] 18:25:16:482 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 34, iteracion = 10 
+
+[WARNING] 18:25:16:482 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 35, iteracion = 11 
+
+[WARNING] 18:25:16:482 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 36, iteracion = 12 
+
+[WARNING] 18:25:16:482 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 37, iteracion = 13 
+
+[WARNING] 18:25:16:482 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 38, iteracion = 14 
+
+[WARNING] 18:25:16:482 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 39, iteracion = 15 
+
+[WARNING] 18:25:16:482 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 40, iteracion = 16 
+
+[WARNING] 18:25:16:482 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 41, iteracion = 17 
+
+[WARNING] 18:25:16:482 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 42, iteracion = 18 
+
+[WARNING] 18:25:16:482 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 43, iteracion = 19 
+
+[WARNING] 18:25:16:482 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 44, iteracion = 20 
+
+[WARNING] 18:25:16:482 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 45, iteracion = 21 
+
+[WARNING] 18:25:16:482 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 46, iteracion = 22 
+
+[WARNING] 18:25:16:482 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 47, iteracion = 23 
+
+[WARNING] 18:25:16:482 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 48, iteracion = 24 
+
+[WARNING] 18:25:16:482 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 49, iteracion = 25 
+
+[WARNING] 18:25:16:482 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 50, iteracion = 26 
+
+[WARNING] 18:25:16:482 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 16, iteracion = 27 
+
+[WARNING] 18:25:16:482 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 17, iteracion = 28 
+
+[WARNING] 18:25:16:483 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 52, iteracion = 29 
+
+[WARNING] 18:25:16:483 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 53, iteracion = 30 
+
+[WARNING] 18:25:16:483 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 54, iteracion = 31 
+
+[WARNING] 18:25:16:483 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 20, iteracion = 32 
+
+[WARNING] 18:25:16:483 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 23, iteracion = 33 
+
+[WARNING] 18:25:16:483 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 51, iteracion = 34 
+
+[WARNING] 18:25:16:483 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 55, iteracion = 35 
+
+[WARNING] 18:25:16:483 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 11, iteracion = 36 
+
+[WARNING] 18:25:16:483 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 56, iteracion = 37 
+
+[WARNING] 18:25:16:483 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 13, iteracion = 38 
+
+[WARNING] 18:25:16:483 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 57, iteracion = 39 
+
+[WARNING] 18:25:16:483 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 62, iteracion = 40 
+
+[WARNING] 18:25:16:483 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 78, iteracion = 41 
+
+[WARNING] 18:25:16:483 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 79, iteracion = 42 
+
+[WARNING] 18:25:16:483 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 80, iteracion = 43 
+
+[WARNING] 18:25:16:483 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 81, iteracion = 44 
+
+[WARNING] 18:25:16:483 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 82, iteracion = 45 
+
+[WARNING] 18:25:16:483 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 83, iteracion = 46 
+
+[WARNING] 18:25:16:483 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 84, iteracion = 47 
+
+[WARNING] 18:25:16:483 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 85, iteracion = 48 
+
+[WARNING] 18:25:16:483 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 86, iteracion = 49 
+
+[WARNING] 18:25:16:483 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 87, iteracion = 50 
+
+[WARNING] 18:25:16:483 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 88, iteracion = 51 
+
+[WARNING] 18:25:16:483 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 90, iteracion = 52 
+
+[WARNING] 18:25:16:483 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 91, iteracion = 53 
+
+[WARNING] 18:25:16:483 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 92, iteracion = 54 
+
+[WARNING] 18:25:16:484 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 93, iteracion = 55 
+
+[WARNING] 18:25:16:484 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 94, iteracion = 56 
+
+[WARNING] 18:25:16:484 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 95, iteracion = 57 
+
+[WARNING] 18:25:16:484 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 96, iteracion = 58 
+
+[WARNING] 18:25:16:484 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 97, iteracion = 59 
+
+[WARNING] 18:25:16:484 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 98, iteracion = 60 
+
+[WARNING] 18:25:16:484 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 99, iteracion = 61 
+
+[WARNING] 18:25:16:484 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 100, iteracion = 62 
+
+[WARNING] 18:25:16:484 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 101, iteracion = 63 
+
+[WARNING] 18:25:16:484 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 102, iteracion = 64 
+
+[WARNING] 18:25:16:484 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 103, iteracion = 65 
+
+[WARNING] 18:25:16:484 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 89, iteracion = 66 
+
+[WARNING] 18:25:16:484 MongoStore/(30328:30328): ultimo bloque mal posicionado, bloque = 104, iteracion = 67 
+
+[WARNING] 18:25:16:484 MongoStore/(30328:30328): sabotaje 5 resuelto con exito
+
+[WARNING] 18:25:16:484 MongoStore/(30328:30328): Archivo size no estaba saboteado. contador: 0, size: 0
+
+[WARNING] 18:25:16:484 MongoStore/(30328:30328): Archivo block_count no estaba saboteado. cantBloques: 1, block_count: 1
+
+[WARNING] 18:25:16:484 MongoStore/(30328:30328): no habia nada saboteado
+
+[INFO] 18:26:24:353 MongoStore/(30460:30460): filesystem iniciado 
+
+[INFO] 18:26:24:370 MongoStore/(30460:30460): No estaba Saboteado
+
+[WARNING] 18:26:24:374 MongoStore/(30460:30460): Archivo size no estaba saboteado. contador: 0, size: 0
+
+[WARNING] 18:26:24:374 MongoStore/(30460:30460): Archivo block_count no estaba saboteado. cantBloques: 5, block_count: 5
+
+[WARNING] 18:26:24:374 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 0, iteracion = 0 
+
+[WARNING] 18:26:24:374 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 1, iteracion = 1 
+
+[WARNING] 18:26:24:374 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 2, iteracion = 2 
+
+[WARNING] 18:26:24:374 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 5, iteracion = 3 
+
+[WARNING] 18:26:24:374 MongoStore/(30460:30460): sabotaje 5 resuelto con exito
+
+[WARNING] 18:26:24:374 MongoStore/(30460:30460): Archivo size no estaba saboteado. contador: 0, size: 0
+
+[WARNING] 18:26:24:374 MongoStore/(30460:30460): Archivo block_count no estaba saboteado. cantBloques: 69, block_count: 69
+
+[WARNING] 18:26:24:374 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 24, iteracion = 0 
+
+[WARNING] 18:26:24:374 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 25, iteracion = 1 
+
+[WARNING] 18:26:24:375 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 26, iteracion = 2 
+
+[WARNING] 18:26:24:375 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 27, iteracion = 3 
+
+[WARNING] 18:26:24:375 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 28, iteracion = 4 
+
+[WARNING] 18:26:24:375 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 29, iteracion = 5 
+
+[WARNING] 18:26:24:375 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 30, iteracion = 6 
+
+[WARNING] 18:26:24:375 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 31, iteracion = 7 
+
+[WARNING] 18:26:24:375 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 32, iteracion = 8 
+
+[WARNING] 18:26:24:375 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 33, iteracion = 9 
+
+[WARNING] 18:26:24:375 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 34, iteracion = 10 
+
+[WARNING] 18:26:24:375 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 35, iteracion = 11 
+
+[WARNING] 18:26:24:375 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 36, iteracion = 12 
+
+[WARNING] 18:26:24:375 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 37, iteracion = 13 
+
+[WARNING] 18:26:24:375 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 38, iteracion = 14 
+
+[WARNING] 18:26:24:375 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 39, iteracion = 15 
+
+[WARNING] 18:26:24:375 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 40, iteracion = 16 
+
+[WARNING] 18:26:24:375 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 41, iteracion = 17 
+
+[WARNING] 18:26:24:375 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 42, iteracion = 18 
+
+[WARNING] 18:26:24:375 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 43, iteracion = 19 
+
+[WARNING] 18:26:24:375 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 44, iteracion = 20 
+
+[WARNING] 18:26:24:376 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 45, iteracion = 21 
+
+[WARNING] 18:26:24:376 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 46, iteracion = 22 
+
+[WARNING] 18:26:24:376 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 47, iteracion = 23 
+
+[WARNING] 18:26:24:376 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 48, iteracion = 24 
+
+[WARNING] 18:26:24:376 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 49, iteracion = 25 
+
+[WARNING] 18:26:24:376 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 50, iteracion = 26 
+
+[WARNING] 18:26:24:376 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 16, iteracion = 27 
+
+[WARNING] 18:26:24:376 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 17, iteracion = 28 
+
+[WARNING] 18:26:24:376 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 52, iteracion = 29 
+
+[WARNING] 18:26:24:376 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 53, iteracion = 30 
+
+[WARNING] 18:26:24:376 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 54, iteracion = 31 
+
+[WARNING] 18:26:24:376 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 20, iteracion = 32 
+
+[WARNING] 18:26:24:376 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 23, iteracion = 33 
+
+[WARNING] 18:26:24:377 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 51, iteracion = 34 
+
+[WARNING] 18:26:24:380 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 55, iteracion = 35 
+
+[WARNING] 18:26:24:381 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 11, iteracion = 36 
+
+[WARNING] 18:26:24:381 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 56, iteracion = 37 
+
+[WARNING] 18:26:24:381 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 13, iteracion = 38 
+
+[WARNING] 18:26:24:381 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 57, iteracion = 39 
+
+[WARNING] 18:26:24:381 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 62, iteracion = 40 
+
+[WARNING] 18:26:24:381 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 78, iteracion = 41 
+
+[WARNING] 18:26:24:381 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 79, iteracion = 42 
+
+[WARNING] 18:26:24:381 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 80, iteracion = 43 
+
+[WARNING] 18:26:24:381 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 81, iteracion = 44 
+
+[WARNING] 18:26:24:381 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 82, iteracion = 45 
+
+[WARNING] 18:26:24:382 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 83, iteracion = 46 
+
+[WARNING] 18:26:24:382 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 84, iteracion = 47 
+
+[WARNING] 18:26:24:382 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 85, iteracion = 48 
+
+[WARNING] 18:26:24:382 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 86, iteracion = 49 
+
+[WARNING] 18:26:24:383 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 87, iteracion = 50 
+
+[WARNING] 18:26:24:383 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 88, iteracion = 51 
+
+[WARNING] 18:26:24:383 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 90, iteracion = 52 
+
+[WARNING] 18:26:24:383 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 91, iteracion = 53 
+
+[WARNING] 18:26:24:383 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 92, iteracion = 54 
+
+[WARNING] 18:26:24:383 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 93, iteracion = 55 
+
+[WARNING] 18:26:24:383 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 94, iteracion = 56 
+
+[WARNING] 18:26:24:383 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 95, iteracion = 57 
+
+[WARNING] 18:26:24:383 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 96, iteracion = 58 
+
+[WARNING] 18:26:24:383 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 97, iteracion = 59 
+
+[WARNING] 18:26:24:383 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 98, iteracion = 60 
+
+[WARNING] 18:26:24:383 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 99, iteracion = 61 
+
+[WARNING] 18:26:24:383 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 100, iteracion = 62 
+
+[WARNING] 18:26:24:383 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 101, iteracion = 63 
+
+[WARNING] 18:26:24:383 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 102, iteracion = 64 
+
+[WARNING] 18:26:24:383 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 103, iteracion = 65 
+
+[WARNING] 18:26:24:383 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 89, iteracion = 66 
+
+[WARNING] 18:26:24:383 MongoStore/(30460:30460): ultimo bloque mal posicionado, bloque = 104, iteracion = 67 
+
+[WARNING] 18:26:24:383 MongoStore/(30460:30460): sabotaje 5 resuelto con exito
+
+[WARNING] 18:26:24:384 MongoStore/(30460:30460): Archivo size no estaba saboteado. contador: 0, size: 0
+
+[WARNING] 18:26:24:384 MongoStore/(30460:30460): Archivo block_count no estaba saboteado. cantBloques: 1, block_count: 1
+
+[WARNING] 18:26:24:384 MongoStore/(30460:30460): no habia nada saboteado
+
+[INFO] 18:26:36:180 MongoStore/(30485:30485): filesystem iniciado 
+
+[INFO] 18:26:36:197 MongoStore/(30485:30485): No estaba Saboteado
+
+[WARNING] 18:26:36:202 MongoStore/(30485:30485): Archivo size no estaba saboteado. contador: 0, size: 0
+
+[WARNING] 18:26:36:202 MongoStore/(30485:30485): Archivo block_count no estaba saboteado. cantBloques: 5, block_count: 5
+
+[WARNING] 18:26:36:202 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 0, iteracion = 0 
+
+[WARNING] 18:26:36:202 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 1, iteracion = 1 
+
+[WARNING] 18:26:36:202 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 2, iteracion = 2 
+
+[WARNING] 18:26:36:202 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 5, iteracion = 3 
+
+[WARNING] 18:26:36:202 MongoStore/(30485:30485): sabotaje 5 resuelto con exito
+
+[WARNING] 18:26:36:202 MongoStore/(30485:30485): Archivo size no estaba saboteado. contador: 0, size: 0
+
+[WARNING] 18:26:36:202 MongoStore/(30485:30485): Archivo block_count no estaba saboteado. cantBloques: 69, block_count: 69
+
+[WARNING] 18:26:36:202 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 24, iteracion = 0 
+
+[WARNING] 18:26:36:202 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 25, iteracion = 1 
+
+[WARNING] 18:26:36:203 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 26, iteracion = 2 
+
+[WARNING] 18:26:36:203 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 27, iteracion = 3 
+
+[WARNING] 18:26:36:203 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 28, iteracion = 4 
+
+[WARNING] 18:26:36:203 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 29, iteracion = 5 
+
+[WARNING] 18:26:36:203 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 30, iteracion = 6 
+
+[WARNING] 18:26:36:203 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 31, iteracion = 7 
+
+[WARNING] 18:26:36:203 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 32, iteracion = 8 
+
+[WARNING] 18:26:36:203 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 33, iteracion = 9 
+
+[WARNING] 18:26:36:203 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 34, iteracion = 10 
+
+[WARNING] 18:26:36:203 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 35, iteracion = 11 
+
+[WARNING] 18:26:36:203 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 36, iteracion = 12 
+
+[WARNING] 18:26:36:203 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 37, iteracion = 13 
+
+[WARNING] 18:26:36:203 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 38, iteracion = 14 
+
+[WARNING] 18:26:36:203 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 39, iteracion = 15 
+
+[WARNING] 18:26:36:203 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 40, iteracion = 16 
+
+[WARNING] 18:26:36:203 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 41, iteracion = 17 
+
+[WARNING] 18:26:36:203 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 42, iteracion = 18 
+
+[WARNING] 18:26:36:203 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 43, iteracion = 19 
+
+[WARNING] 18:26:36:203 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 44, iteracion = 20 
+
+[WARNING] 18:26:36:203 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 45, iteracion = 21 
+
+[WARNING] 18:26:36:203 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 46, iteracion = 22 
+
+[WARNING] 18:26:36:204 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 47, iteracion = 23 
+
+[WARNING] 18:26:36:204 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 48, iteracion = 24 
+
+[WARNING] 18:26:36:204 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 49, iteracion = 25 
+
+[WARNING] 18:26:36:204 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 50, iteracion = 26 
+
+[WARNING] 18:26:36:204 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 16, iteracion = 27 
+
+[WARNING] 18:26:36:204 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 17, iteracion = 28 
+
+[WARNING] 18:26:36:204 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 52, iteracion = 29 
+
+[WARNING] 18:26:36:204 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 53, iteracion = 30 
+
+[WARNING] 18:26:36:204 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 54, iteracion = 31 
+
+[WARNING] 18:26:36:204 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 20, iteracion = 32 
+
+[WARNING] 18:26:36:204 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 23, iteracion = 33 
+
+[WARNING] 18:26:36:204 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 51, iteracion = 34 
+
+[WARNING] 18:26:36:204 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 55, iteracion = 35 
+
+[WARNING] 18:26:36:204 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 11, iteracion = 36 
+
+[WARNING] 18:26:36:204 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 56, iteracion = 37 
+
+[WARNING] 18:26:36:204 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 13, iteracion = 38 
+
+[WARNING] 18:26:36:204 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 57, iteracion = 39 
+
+[WARNING] 18:26:36:204 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 62, iteracion = 40 
+
+[WARNING] 18:26:36:204 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 78, iteracion = 41 
+
+[WARNING] 18:26:36:204 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 79, iteracion = 42 
+
+[WARNING] 18:26:36:204 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 80, iteracion = 43 
+
+[WARNING] 18:26:36:204 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 81, iteracion = 44 
+
+[WARNING] 18:26:36:205 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 82, iteracion = 45 
+
+[WARNING] 18:26:36:205 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 83, iteracion = 46 
+
+[WARNING] 18:26:36:205 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 84, iteracion = 47 
+
+[WARNING] 18:26:36:205 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 85, iteracion = 48 
+
+[WARNING] 18:26:36:205 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 86, iteracion = 49 
+
+[WARNING] 18:26:36:205 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 87, iteracion = 50 
+
+[WARNING] 18:26:36:205 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 88, iteracion = 51 
+
+[WARNING] 18:26:36:205 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 90, iteracion = 52 
+
+[WARNING] 18:26:36:205 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 91, iteracion = 53 
+
+[WARNING] 18:26:36:205 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 92, iteracion = 54 
+
+[WARNING] 18:26:36:205 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 93, iteracion = 55 
+
+[WARNING] 18:26:36:205 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 94, iteracion = 56 
+
+[WARNING] 18:26:36:205 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 95, iteracion = 57 
+
+[WARNING] 18:26:36:205 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 96, iteracion = 58 
+
+[WARNING] 18:26:36:205 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 97, iteracion = 59 
+
+[WARNING] 18:26:36:205 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 98, iteracion = 60 
+
+[WARNING] 18:26:36:205 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 99, iteracion = 61 
+
+[WARNING] 18:26:36:205 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 100, iteracion = 62 
+
+[WARNING] 18:26:36:205 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 101, iteracion = 63 
+
+[WARNING] 18:26:36:205 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 102, iteracion = 64 
+
+[WARNING] 18:26:36:205 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 103, iteracion = 65 
+
+[WARNING] 18:26:36:206 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 89, iteracion = 66 
+
+[WARNING] 18:26:36:206 MongoStore/(30485:30485): ultimo bloque mal posicionado, bloque = 104, iteracion = 67 
+
+[WARNING] 18:26:36:206 MongoStore/(30485:30485): sabotaje 5 resuelto con exito
+
+[WARNING] 18:26:36:208 MongoStore/(30485:30485): Archivo size no estaba saboteado. contador: 0, size: 0
+
+[WARNING] 18:26:36:208 MongoStore/(30485:30485): Archivo block_count no estaba saboteado. cantBloques: 1, block_count: 1
+
+[WARNING] 18:26:36:208 MongoStore/(30485:30485): no habia nada saboteado
+
+[INFO] 18:27:05:995 MongoStore/(30553:30553): filesystem iniciado 
+
+[INFO] 18:27:06:008 MongoStore/(30553:30553): No estaba Saboteado
+
+[WARNING] 18:27:06:010 MongoStore/(30553:30553): Archivo size no estaba saboteado. contador: 0, size: 0
+
+[WARNING] 18:27:06:010 MongoStore/(30553:30553): Archivo block_count no estaba saboteado. cantBloques: 5, block_count: 5
+
+[WARNING] 18:27:06:010 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 0, iteracion = 0 
+
+[WARNING] 18:27:06:010 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 1, iteracion = 1 
+
+[WARNING] 18:27:06:010 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 2, iteracion = 2 
+
+[WARNING] 18:27:06:010 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 5, iteracion = 3 
+
+[WARNING] 18:27:06:010 MongoStore/(30553:30553): sabotaje 5 resuelto con exito
+
+[WARNING] 18:27:06:010 MongoStore/(30553:30553): Archivo size no estaba saboteado. contador: 0, size: 0
+
+[WARNING] 18:27:06:010 MongoStore/(30553:30553): Archivo block_count no estaba saboteado. cantBloques: 69, block_count: 69
+
+[WARNING] 18:27:06:010 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 24, iteracion = 0 
+
+[WARNING] 18:27:06:010 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 25, iteracion = 1 
+
+[WARNING] 18:27:06:011 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 26, iteracion = 2 
+
+[WARNING] 18:27:06:011 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 27, iteracion = 3 
+
+[WARNING] 18:27:06:011 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 28, iteracion = 4 
+
+[WARNING] 18:27:06:011 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 29, iteracion = 5 
+
+[WARNING] 18:27:06:011 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 30, iteracion = 6 
+
+[WARNING] 18:27:06:011 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 31, iteracion = 7 
+
+[WARNING] 18:27:06:011 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 32, iteracion = 8 
+
+[WARNING] 18:27:06:011 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 33, iteracion = 9 
+
+[WARNING] 18:27:06:011 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 34, iteracion = 10 
+
+[WARNING] 18:27:06:011 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 35, iteracion = 11 
+
+[WARNING] 18:27:06:011 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 36, iteracion = 12 
+
+[WARNING] 18:27:06:011 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 37, iteracion = 13 
+
+[WARNING] 18:27:06:011 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 38, iteracion = 14 
+
+[WARNING] 18:27:06:011 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 39, iteracion = 15 
+
+[WARNING] 18:27:06:011 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 40, iteracion = 16 
+
+[WARNING] 18:27:06:011 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 41, iteracion = 17 
+
+[WARNING] 18:27:06:011 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 42, iteracion = 18 
+
+[WARNING] 18:27:06:011 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 43, iteracion = 19 
+
+[WARNING] 18:27:06:011 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 44, iteracion = 20 
+
+[WARNING] 18:27:06:011 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 45, iteracion = 21 
+
+[WARNING] 18:27:06:011 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 46, iteracion = 22 
+
+[WARNING] 18:27:06:011 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 47, iteracion = 23 
+
+[WARNING] 18:27:06:011 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 48, iteracion = 24 
+
+[WARNING] 18:27:06:011 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 49, iteracion = 25 
+
+[WARNING] 18:27:06:012 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 50, iteracion = 26 
+
+[WARNING] 18:27:06:012 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 16, iteracion = 27 
+
+[WARNING] 18:27:06:012 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 17, iteracion = 28 
+
+[WARNING] 18:27:06:012 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 52, iteracion = 29 
+
+[WARNING] 18:27:06:012 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 53, iteracion = 30 
+
+[WARNING] 18:27:06:012 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 54, iteracion = 31 
+
+[WARNING] 18:27:06:012 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 20, iteracion = 32 
+
+[WARNING] 18:27:06:012 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 23, iteracion = 33 
+
+[WARNING] 18:27:06:012 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 51, iteracion = 34 
+
+[WARNING] 18:27:06:012 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 55, iteracion = 35 
+
+[WARNING] 18:27:06:012 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 11, iteracion = 36 
+
+[WARNING] 18:27:06:012 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 56, iteracion = 37 
+
+[WARNING] 18:27:06:012 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 13, iteracion = 38 
+
+[WARNING] 18:27:06:012 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 57, iteracion = 39 
+
+[WARNING] 18:27:06:012 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 62, iteracion = 40 
+
+[WARNING] 18:27:06:012 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 78, iteracion = 41 
+
+[WARNING] 18:27:06:012 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 79, iteracion = 42 
+
+[WARNING] 18:27:06:012 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 80, iteracion = 43 
+
+[WARNING] 18:27:06:012 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 81, iteracion = 44 
+
+[WARNING] 18:27:06:012 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 82, iteracion = 45 
+
+[WARNING] 18:27:06:012 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 83, iteracion = 46 
+
+[WARNING] 18:27:06:012 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 84, iteracion = 47 
+
+[WARNING] 18:27:06:013 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 85, iteracion = 48 
+
+[WARNING] 18:27:06:013 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 86, iteracion = 49 
+
+[WARNING] 18:27:06:013 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 87, iteracion = 50 
+
+[WARNING] 18:27:06:013 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 88, iteracion = 51 
+
+[WARNING] 18:27:06:013 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 90, iteracion = 52 
+
+[WARNING] 18:27:06:013 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 91, iteracion = 53 
+
+[WARNING] 18:27:06:013 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 92, iteracion = 54 
+
+[WARNING] 18:27:06:013 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 93, iteracion = 55 
+
+[WARNING] 18:27:06:013 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 94, iteracion = 56 
+
+[WARNING] 18:27:06:013 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 95, iteracion = 57 
+
+[WARNING] 18:27:06:013 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 96, iteracion = 58 
+
+[WARNING] 18:27:06:013 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 97, iteracion = 59 
+
+[WARNING] 18:27:06:013 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 98, iteracion = 60 
+
+[WARNING] 18:27:06:013 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 99, iteracion = 61 
+
+[WARNING] 18:27:06:013 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 100, iteracion = 62 
+
+[WARNING] 18:27:06:013 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 101, iteracion = 63 
+
+[WARNING] 18:27:06:013 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 102, iteracion = 64 
+
+[WARNING] 18:27:06:013 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 103, iteracion = 65 
+
+[WARNING] 18:27:06:013 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 89, iteracion = 66 
+
+[WARNING] 18:27:06:013 MongoStore/(30553:30553): ultimo bloque mal posicionado, bloque = 104, iteracion = 67 
+
+[WARNING] 18:27:06:013 MongoStore/(30553:30553): sabotaje 5 resuelto con exito
+
+[WARNING] 18:27:06:013 MongoStore/(30553:30553): Archivo size no estaba saboteado. contador: 0, size: 0
+
+[WARNING] 18:27:06:014 MongoStore/(30553:30553): Archivo block_count no estaba saboteado. cantBloques: 1, block_count: 1
+
+[WARNING] 18:27:06:014 MongoStore/(30553:30553): no habia nada saboteado
+
+[INFO] 18:27:06:055 MongoStore/(30553:30553): Sincronizacion completada
+[INFO] 18:27:09:950 MongoStore/(30553:30553): Iniciando servidor I Mongo Store 
+
+[INFO] 18:27:13:609 MongoStore/(30577:30577): filesystem iniciado 
+
+[INFO] 18:27:13:609 MongoStore/(30577:30577): No estaba Saboteado
+
+[WARNING] 18:27:13:609 MongoStore/(30577:30577): Archivo size no estaba saboteado. contador: 0, size: 0
+
+[WARNING] 18:27:13:610 MongoStore/(30577:30577): Archivo block_count no estaba saboteado. cantBloques: 5, block_count: 5
+
+[WARNING] 18:27:13:611 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 0, iteracion = 0 
+
+[WARNING] 18:27:13:611 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 1, iteracion = 1 
+
+[WARNING] 18:27:13:611 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 2, iteracion = 2 
+
+[WARNING] 18:27:13:611 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 5, iteracion = 3 
+
+[WARNING] 18:27:13:611 MongoStore/(30577:30577): sabotaje 5 resuelto con exito
+
+[WARNING] 18:27:13:612 MongoStore/(30577:30577): Archivo size no estaba saboteado. contador: 0, size: 0
+
+[WARNING] 18:27:13:612 MongoStore/(30577:30577): Archivo block_count no estaba saboteado. cantBloques: 69, block_count: 69
+
+[WARNING] 18:27:13:612 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 24, iteracion = 0 
+
+[WARNING] 18:27:13:612 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 25, iteracion = 1 
+
+[WARNING] 18:27:13:612 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 26, iteracion = 2 
+
+[WARNING] 18:27:13:612 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 27, iteracion = 3 
+
+[WARNING] 18:27:13:612 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 28, iteracion = 4 
+
+[WARNING] 18:27:13:612 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 29, iteracion = 5 
+
+[WARNING] 18:27:13:612 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 30, iteracion = 6 
+
+[WARNING] 18:27:13:612 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 31, iteracion = 7 
+
+[WARNING] 18:27:13:612 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 32, iteracion = 8 
+
+[WARNING] 18:27:13:612 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 33, iteracion = 9 
+
+[WARNING] 18:27:13:612 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 34, iteracion = 10 
+
+[WARNING] 18:27:13:612 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 35, iteracion = 11 
+
+[WARNING] 18:27:13:613 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 36, iteracion = 12 
+
+[WARNING] 18:27:13:613 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 37, iteracion = 13 
+
+[WARNING] 18:27:13:613 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 38, iteracion = 14 
+
+[WARNING] 18:27:13:613 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 39, iteracion = 15 
+
+[WARNING] 18:27:13:613 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 40, iteracion = 16 
+
+[WARNING] 18:27:13:613 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 41, iteracion = 17 
+
+[WARNING] 18:27:13:613 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 42, iteracion = 18 
+
+[WARNING] 18:27:13:613 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 43, iteracion = 19 
+
+[WARNING] 18:27:13:613 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 44, iteracion = 20 
+
+[WARNING] 18:27:13:613 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 45, iteracion = 21 
+
+[WARNING] 18:27:13:613 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 46, iteracion = 22 
+
+[WARNING] 18:27:13:613 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 47, iteracion = 23 
+
+[WARNING] 18:27:13:613 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 48, iteracion = 24 
+
+[WARNING] 18:27:13:613 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 49, iteracion = 25 
+
+[WARNING] 18:27:13:613 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 50, iteracion = 26 
+
+[WARNING] 18:27:13:613 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 16, iteracion = 27 
+
+[WARNING] 18:27:13:613 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 17, iteracion = 28 
+
+[WARNING] 18:27:13:613 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 52, iteracion = 29 
+
+[WARNING] 18:27:13:613 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 53, iteracion = 30 
+
+[WARNING] 18:27:13:613 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 54, iteracion = 31 
+
+[WARNING] 18:27:13:613 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 20, iteracion = 32 
+
+[WARNING] 18:27:13:613 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 23, iteracion = 33 
+
+[WARNING] 18:27:13:613 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 51, iteracion = 34 
+
+[WARNING] 18:27:13:613 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 55, iteracion = 35 
+
+[WARNING] 18:27:13:614 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 11, iteracion = 36 
+
+[WARNING] 18:27:13:614 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 56, iteracion = 37 
+
+[WARNING] 18:27:13:614 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 13, iteracion = 38 
+
+[WARNING] 18:27:13:614 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 57, iteracion = 39 
+
+[WARNING] 18:27:13:614 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 62, iteracion = 40 
+
+[WARNING] 18:27:13:614 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 78, iteracion = 41 
+
+[WARNING] 18:27:13:616 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 79, iteracion = 42 
+
+[WARNING] 18:27:13:616 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 80, iteracion = 43 
+
+[WARNING] 18:27:13:616 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 81, iteracion = 44 
+
+[WARNING] 18:27:13:616 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 82, iteracion = 45 
+
+[WARNING] 18:27:13:616 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 83, iteracion = 46 
+
+[WARNING] 18:27:13:616 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 84, iteracion = 47 
+
+[WARNING] 18:27:13:616 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 85, iteracion = 48 
+
+[WARNING] 18:27:13:616 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 86, iteracion = 49 
+
+[WARNING] 18:27:13:616 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 87, iteracion = 50 
+
+[WARNING] 18:27:13:617 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 88, iteracion = 51 
+
+[WARNING] 18:27:13:617 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 90, iteracion = 52 
+
+[WARNING] 18:27:13:617 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 91, iteracion = 53 
+
+[WARNING] 18:27:13:617 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 92, iteracion = 54 
+
+[WARNING] 18:27:13:617 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 93, iteracion = 55 
+
+[WARNING] 18:27:13:617 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 94, iteracion = 56 
+
+[WARNING] 18:27:13:617 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 95, iteracion = 57 
+
+[WARNING] 18:27:13:617 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 96, iteracion = 58 
+
+[WARNING] 18:27:13:617 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 97, iteracion = 59 
+
+[WARNING] 18:27:13:617 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 98, iteracion = 60 
+
+[WARNING] 18:27:13:617 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 99, iteracion = 61 
+
+[WARNING] 18:27:13:617 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 100, iteracion = 62 
+
+[WARNING] 18:27:13:617 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 101, iteracion = 63 
+
+[WARNING] 18:27:13:617 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 102, iteracion = 64 
+
+[WARNING] 18:27:13:617 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 103, iteracion = 65 
+
+[WARNING] 18:27:13:617 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 89, iteracion = 66 
+
+[WARNING] 18:27:13:617 MongoStore/(30577:30577): ultimo bloque mal posicionado, bloque = 104, iteracion = 67 
+
+[WARNING] 18:27:13:617 MongoStore/(30577:30577): sabotaje 5 resuelto con exito
+
+[WARNING] 18:27:13:617 MongoStore/(30577:30577): Archivo size no estaba saboteado. contador: 0, size: 0
+
+[WARNING] 18:27:13:618 MongoStore/(30577:30577): Archivo block_count no estaba saboteado. cantBloques: 1, block_count: 1
+
+[WARNING] 18:27:13:618 MongoStore/(30577:30577): no habia nada saboteado
+
+[INFO] 18:27:13:639 MongoStore/(30577:30577): Sincronizacion completada
+[INFO] 18:49:05:024 MongoStore/(31806:31806): iniciando filesystem... 
+
+[INFO] 18:49:05:037 MongoStore/(31806:31806): superBloque creado 
+
+[INFO] 18:49:05:037 MongoStore/(31806:31806): creado bloque...
+
+[INFO] 18:49:05:037 MongoStore/(31806:31806): bloque.bin creado 
+
+[INFO] 18:49:09:769 MongoStore/(31806:31806): filesystem iniciado 
+
+[INFO] 18:49:09:770 MongoStore/(31806:31806): No estaba Saboteado
+
+[INFO] 18:52:36:222 MongoStore/(31806:31806): Iniciando servidor I Mongo Store 
+
+[INFO] 18:52:57:119 MongoStore/(32051:32051): iniciando filesystem... 
+
+[INFO] 18:52:57:141 MongoStore/(32051:32051): superBloque creado 
+
+[INFO] 18:52:57:141 MongoStore/(32051:32051): creado bloque...
+
+[INFO] 18:52:57:143 MongoStore/(32051:32051): bloque.bin creado 
+
+[INFO] 18:52:58:269 MongoStore/(32051:32051): filesystem iniciado 
+
+[INFO] 18:52:58:269 MongoStore/(32051:32051): Sabotaje 1 = No estaba Saboteado. Cantidad De Bloques en el superBloque correcto
+
+[WARNING] 18:52:58:270 MongoStore/(32051:32051): Sabotaje 2 resuelto con exito
+
+[INFO] 18:53:10:419 MongoStore/(32051:32051): Iniciando servidor I Mongo Store 
+
+[INFO] 18:53:10:419 MongoStore/(32051:32051): I Mongo Store: - listo para recibir al cliente
+[INFO] 18:54:16:296 MongoStore/(32186:32186): filesystem iniciado 
+
+[INFO] 18:54:16:356 MongoStore/(32186:32186): Sabotaje 1 = No estaba Saboteado. Cantidad De Bloques en el superBloque correcto
+
+[INFO] 18:54:16:356 MongoStore/(32186:32186): Sabotaje 2 resuelto con exito
+
+[INFO] 18:55:13:036 MongoStore/(32297:32297): iniciando filesystem... 
+
+[INFO] 18:55:13:066 MongoStore/(32297:32297): superBloque creado 
+
+[INFO] 18:55:13:067 MongoStore/(32297:32297): creado bloque...
+
+[INFO] 18:55:13:067 MongoStore/(32297:32297): bloque.bin creado 
+
+[INFO] 18:55:15:134 MongoStore/(32297:32297): filesystem iniciado 
+
+[INFO] 18:55:15:213 MongoStore/(32297:32297): Sincronizacion completada
+[INFO] 18:55:15:214 MongoStore/(32297:32297): Sabotaje 1 = No estaba Saboteado. Cantidad De Bloques en el superBloque correcto
+
+[INFO] 18:55:15:214 MongoStore/(32297:32297): Sabotaje 2 resuelto con exito
+
+[INFO] 18:55:32:905 MongoStore/(32361:32361): filesystem iniciado 
+
+[INFO] 18:55:32:917 MongoStore/(32361:32361): Sabotaje 1 = No estaba Saboteado. Cantidad De Bloques en el superBloque correcto
+
+[INFO] 18:55:32:917 MongoStore/(32361:32361): Sabotaje 2 resuelto con exito
+
+[INFO] 18:55:53:640 MongoStore/(32400:32400): filesystem iniciado 
+
+[INFO] 18:55:53:657 MongoStore/(32400:32400): Sabotaje 1 = No estaba Saboteado. Cantidad De Bloques en el superBloque correcto
+
+[INFO] 18:55:53:658 MongoStore/(32400:32400): Sabotaje 2 resuelto con exito
+
+[INFO] 18:58:12:376 MongoStore/(32579:32579): filesystem iniciado 
+
+[INFO] 18:58:12:418 MongoStore/(32579:32579): Sincronizacion completada
+[INFO] 18:58:12:418 MongoStore/(32579:32579): Sabotaje 1 = No estaba Saboteado. Cantidad De Bloques en el superBloque correcto
+
+[INFO] 18:58:12:418 MongoStore/(32579:32579): Sabotaje 2 resuelto con exito
+
+[INFO] 18:59:57:936 MongoStore/(32767:32767): filesystem iniciado 
+
+[INFO] 18:59:57:999 MongoStore/(32767:32767): Sincronizacion completada
+[INFO] 18:59:57:999 MongoStore/(32767:32767): Sabotaje 1 = No estaba Saboteado. Cantidad De Bloques en el superBloque correcto
+
+[INFO] 18:59:57:999 MongoStore/(32767:32767): Sabotaje 2 resuelto con exito
+
+[INFO] 19:11:39:477 MongoStore/(1017:1017): filesystem iniciado 
+
+[INFO] 19:22:28:011 MongoStore/(1753:1753): iniciando filesystem... 
+
+[INFO] 19:22:28:020 MongoStore/(1753:1753): superBloque creado 
+
+[INFO] 19:22:28:020 MongoStore/(1753:1753): creado bloque...
+
+[INFO] 19:22:28:020 MongoStore/(1753:1753): bloque.bin creado 
+
+[INFO] 19:22:28:936 MongoStore/(1753:1753): filesystem iniciado 
+
+[INFO] 19:22:28:976 MongoStore/(1753:1753): Sabotaje 1 = No estaba Saboteado. Cantidad De Bloques en el superBloque correcto
+
+[INFO] 19:22:28:976 MongoStore/(1753:1753): Sabotaje 2 resuelto con exito
+
+[INFO] 19:24:05:643 MongoStore/(1935:1935): iniciando filesystem... 
+
+[INFO] 19:24:05:650 MongoStore/(1935:1935): superBloque creado 
+
+[INFO] 19:24:05:650 MongoStore/(1935:1935): creado bloque...
+
+[INFO] 19:24:05:651 MongoStore/(1935:1935): bloque.bin creado 
+
+[INFO] 19:24:06:560 MongoStore/(1935:1935): filesystem iniciado 
+
+[INFO] 19:24:06:624 MongoStore/(1935:1935): Sincronizacion completada
+[INFO] 19:24:06:624 MongoStore/(1935:1935): Sabotaje 1 = No estaba Saboteado. Cantidad De Bloques en el superBloque correcto
+
+[INFO] 19:24:06:624 MongoStore/(1935:1935): Sabotaje 2 resuelto con exito
+
+[INFO] 19:25:17:793 MongoStore/(2052:2052): filesystem iniciado 
+
+[INFO] 19:25:54:863 MongoStore/(2110:2110): iniciando filesystem... 
+
+[INFO] 19:25:54:867 MongoStore/(2110:2110): superBloque creado 
+
+[INFO] 19:25:54:867 MongoStore/(2110:2110): creado bloque...
+
+[INFO] 19:25:54:867 MongoStore/(2110:2110): bloque.bin creado 
+
+[INFO] 19:25:55:737 MongoStore/(2110:2110): filesystem iniciado 
+
+[INFO] 19:25:55:808 MongoStore/(2110:2110): Sincronizacion completada
+[INFO] 19:25:55:808 MongoStore/(2110:2110): Sabotaje 1 = No estaba Saboteado. Cantidad De Bloques en el superBloque correcto
+
+[INFO] 19:25:55:809 MongoStore/(2110:2110): Sabotaje 2 resuelto con exito
+
+[INFO] 19:34:40:362 MongoStore/(2785:2785): filesystem iniciado 
+
+[INFO] 19:35:36:338 MongoStore/(2898:2898): iniciando filesystem... 
+
+[INFO] 19:35:36:345 MongoStore/(2898:2898): superBloque creado 
+
+[INFO] 19:35:36:345 MongoStore/(2898:2898): creado bloque...
+
+[INFO] 19:35:36:345 MongoStore/(2898:2898): bloque.bin creado 
+
+[INFO] 19:35:37:723 MongoStore/(2898:2898): filesystem iniciado 
+
+[INFO] 19:37:45:258 MongoStore/(3225:3225): filesystem iniciado 
+
+[INFO] 19:38:52:860 MongoStore/(3355:3355): iniciando filesystem... 
+
+[INFO] 19:38:52:872 MongoStore/(3355:3355): superBloque creado 
+
+[INFO] 19:38:52:873 MongoStore/(3355:3355): creado bloque...
+
+[INFO] 19:38:52:874 MongoStore/(3355:3355): bloque.bin creado 
+
+[INFO] 19:38:54:067 MongoStore/(3355:3355): filesystem iniciado 
+
+[INFO] 19:40:37:348 MongoStore/(3355:3355): Sincronizacion completada
+[INFO] 19:40:37:351 MongoStore/(3355:3355): Sabotaje 1 = No estaba Saboteado. Cantidad De Bloques en el superBloque correcto
+
+[INFO] 19:40:37:357 MongoStore/(3355:3355): Sabotaje 2 resuelto con exito
+
+[INFO] 19:44:33:097 MongoStore/(3760:3760): filesystem iniciado 
+
+[INFO] 19:44:56:938 MongoStore/(3814:3814): iniciando filesystem... 
+
+[INFO] 19:44:56:948 MongoStore/(3814:3814): superBloque creado 
+
+[INFO] 19:44:56:948 MongoStore/(3814:3814): creado bloque...
+
+[INFO] 19:44:56:948 MongoStore/(3814:3814): bloque.bin creado 
+
+[INFO] 19:44:58:847 MongoStore/(3814:3814): filesystem iniciado 
+
+[WARNING] 19:46:57:381 MongoStore/(3814:3814): Archivo size no estaba saboteado. contador: 100, size: 100
+
+[WARNING] 19:46:59:154 MongoStore/(3814:3814): Archivo block_count saboteado, reparando...
+
+[INFO] 19:53:18:474 MongoStore/(4423:4423): iniciando filesystem... 
+
+[INFO] 19:53:18:475 MongoStore/(4423:4423): superBloque creado 
+
+[INFO] 19:53:18:476 MongoStore/(4423:4423): creado bloque...
+
+[INFO] 19:53:18:476 MongoStore/(4423:4423): bloque.bin creado 
+
+[INFO] 19:53:19:475 MongoStore/(4423:4423): filesystem iniciado 
+
+[INFO] 19:54:36:701 MongoStore/(4587:4587): iniciando filesystem... 
+
+[INFO] 19:54:36:702 MongoStore/(4587:4587): superBloque creado 
+
+[INFO] 19:54:36:702 MongoStore/(4587:4587): creado bloque...
+
+[INFO] 19:54:36:702 MongoStore/(4587:4587): bloque.bin creado 
+
+[INFO] 19:54:37:684 MongoStore/(4587:4587): filesystem iniciado 
+
+[INFO] 19:54:44:305 MongoStore/(4587:4587): Sincronizacion completada
+[INFO] 19:56:23:745 MongoStore/(4784:4784): filesystem iniciado 
+
+[INFO] 19:56:43:044 MongoStore/(4826:4826): iniciando filesystem... 
+
+[INFO] 19:56:43:045 MongoStore/(4826:4826): superBloque creado 
+
+[INFO] 19:56:43:046 MongoStore/(4826:4826): creado bloque...
+
+[INFO] 19:56:43:046 MongoStore/(4826:4826): bloque.bin creado 
+
+[INFO] 19:56:44:094 MongoStore/(4826:4826): filesystem iniciado 
+
+[INFO] 19:56:44:135 MongoStore/(4826:4826): Sincronizacion completada
+[WARNING] 19:57:14:063 MongoStore/(4826:4826): Archivo size no estaba saboteado. contador: 100, size: 100
+
+[WARNING] 19:57:14:063 MongoStore/(4826:4826): Archivo block_count saboteado, reparando...
+
+[INFO] 19:58:34:470 MongoStore/(4972:4972): filesystem iniciado 
+
+[INFO] 19:58:48:209 MongoStore/(4997:4997): iniciando filesystem... 
+
+[INFO] 19:58:48:216 MongoStore/(4997:4997): superBloque creado 
+
+[INFO] 19:58:48:216 MongoStore/(4997:4997): creado bloque...
+
+[INFO] 19:58:48:217 MongoStore/(4997:4997): bloque.bin creado 
+
+[INFO] 19:58:49:246 MongoStore/(4997:4997): filesystem iniciado 
+
+[INFO] 19:58:49:325 MongoStore/(4997:4997): Sincronizacion completada
+[WARNING] 19:58:52:628 MongoStore/(4997:4997): Archivo size no estaba saboteado. contador: 100, size: 100
+
+[WARNING] 19:58:52:629 MongoStore/(4997:4997): Archivo block_count saboteado, reparando...
+
+[INFO] 20:00:23:306 MongoStore/(5153:5153): iniciando filesystem... 
+
+[INFO] 20:00:23:322 MongoStore/(5153:5153): superBloque creado 
+
+[INFO] 20:00:23:322 MongoStore/(5153:5153): creado bloque...
+
+[INFO] 20:00:23:322 MongoStore/(5153:5153): bloque.bin creado 
+
+[INFO] 20:00:24:671 MongoStore/(5153:5153): filesystem iniciado 
+
+[INFO] 20:00:24:719 MongoStore/(5153:5153): Sincronizacion completada
+[INFO] 20:00:51:494 MongoStore/(5229:5229): filesystem iniciado 
+
+[INFO] 20:01:04:479 MongoStore/(5229:5229): Sincronizacion completada
+[WARNING] 20:01:36:207 MongoStore/(5229:5229): Archivo size no estaba saboteado. contador: 200, size: 200
+
+[WARNING] 20:01:40:611 MongoStore/(5229:5229): Archivo block_count saboteado, reparando...
+
+[INFO] 20:03:03:034 MongoStore/(5423:5423): iniciando filesystem... 
+
+[INFO] 20:03:03:036 MongoStore/(5423:5423): superBloque creado 
+
+[INFO] 20:03:03:036 MongoStore/(5423:5423): creado bloque...
+
+[INFO] 20:03:03:037 MongoStore/(5423:5423): bloque.bin creado 
+
+[INFO] 20:03:04:163 MongoStore/(5423:5423): filesystem iniciado 
+
+[INFO] 20:03:04:250 MongoStore/(5423:5423): Sincronizacion completada
+[INFO] 20:03:41:291 MongoStore/(5500:5500): filesystem iniciado 
+
+[INFO] 20:03:41:328 MongoStore/(5500:5500): Sincronizacion completada
+[WARNING] 20:03:44:670 MongoStore/(5500:5500): Archivo size no estaba saboteado. contador: 200, size: 200
+
+[WARNING] 20:03:44:670 MongoStore/(5500:5500): Archivo block_count no estaba saboteado. cantBloques: 4, block_count: 4
+
+[WARNING] 20:03:44:670 MongoStore/(5500:5500): no habia nada saboteado
+
+[WARNING] 20:03:51:380 MongoStore/(5500:5500): Archivo size no estaba saboteado. contador: 200, size: 200
+
+[WARNING] 20:03:51:380 MongoStore/(5500:5500): Archivo block_count no estaba saboteado. cantBloques: 4, block_count: 4
+
+[WARNING] 20:03:51:380 MongoStore/(5500:5500): no habia nada saboteado
+
+[WARNING] 20:03:58:865 MongoStore/(5500:5500): Archivo size no estaba saboteado. contador: 200, size: 200
+
+[WARNING] 20:03:58:865 MongoStore/(5500:5500): Archivo block_count no estaba saboteado. cantBloques: 4, block_count: 4
+
+[WARNING] 20:03:58:865 MongoStore/(5500:5500): no habia nada saboteado
+
+[INFO] 20:04:04:161 MongoStore/(5500:5500): Iniciando servidor I Mongo Store 
+
+[INFO] 20:04:04:162 MongoStore/(5500:5500): I Mongo Store: - listo para recibir al cliente
+[INFO] 20:04:27:405 MongoStore/(5552:5552): filesystem iniciado 
+
+[INFO] 20:04:27:442 MongoStore/(5552:5552): Sincronizacion completada
+[WARNING] 20:04:32:219 MongoStore/(5552:5552): Archivo size no estaba saboteado. contador: 300, size: 300
+
+[WARNING] 20:04:32:219 MongoStore/(5552:5552): Archivo block_count no estaba saboteado. cantBloques: 5, block_count: 5
+
+[WARNING] 20:04:32:220 MongoStore/(5552:5552): no habia nada saboteado
+
+[WARNING] 20:04:35:876 MongoStore/(5552:5552): Archivo size no estaba saboteado. contador: 300, size: 300
+
+[WARNING] 20:04:35:876 MongoStore/(5552:5552): Archivo block_count no estaba saboteado. cantBloques: 5, block_count: 5
+
+[WARNING] 20:04:35:876 MongoStore/(5552:5552): no habia nada saboteado
+
+[WARNING] 20:04:37:764 MongoStore/(5552:5552): Archivo size no estaba saboteado. contador: 300, size: 300
+
+[WARNING] 20:04:37:764 MongoStore/(5552:5552): Archivo block_count no estaba saboteado. cantBloques: 5, block_count: 5
+
+[WARNING] 20:04:37:764 MongoStore/(5552:5552): no habia nada saboteado
+
+[INFO] 20:04:40:172 MongoStore/(5552:5552): Iniciando servidor I Mongo Store 
+
+[INFO] 20:04:40:172 MongoStore/(5552:5552): I Mongo Store: - listo para recibir al cliente
+[INFO] 20:05:39:783 MongoStore/(5660:5660): filesystem iniciado 
+
+[INFO] 20:05:39:802 MongoStore/(5660:5660): Sincronizacion completada
+[WARNING] 20:05:39:802 MongoStore/(5660:5660): Archivo size no estaba saboteado. contador: 400, size: 400
+
+[WARNING] 20:05:39:803 MongoStore/(5660:5660): Archivo block_count no estaba saboteado. cantBloques: 7, block_count: 7
+
+[WARNING] 20:05:39:803 MongoStore/(5660:5660): no habia nada saboteado
+
+[WARNING] 20:05:39:803 MongoStore/(5660:5660): Archivo size no estaba saboteado. contador: 400, size: 400
+
+[WARNING] 20:05:39:803 MongoStore/(5660:5660): Archivo block_count no estaba saboteado. cantBloques: 7, block_count: 7
+
+[WARNING] 20:05:39:803 MongoStore/(5660:5660): no habia nada saboteado
+
+[WARNING] 20:05:39:803 MongoStore/(5660:5660): Archivo size no estaba saboteado. contador: 400, size: 400
+
+[WARNING] 20:05:39:803 MongoStore/(5660:5660): Archivo block_count no estaba saboteado. cantBloques: 7, block_count: 7
+
+[WARNING] 20:05:39:803 MongoStore/(5660:5660): no habia nada saboteado
+
+[INFO] 20:06:09:354 MongoStore/(5728:5728): filesystem iniciado 
+
+[INFO] 20:06:09:354 MongoStore/(5728:5728): Iniciando servidor I Mongo Store 
+
+[INFO] 20:06:09:354 MongoStore/(5728:5728): I Mongo Store: - listo para recibir al cliente
