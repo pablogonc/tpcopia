@@ -519,6 +519,14 @@ void bloquearTripulantesEM(int socket[]){
 		//i--;
 	}
 	list_destroy(aux);
+
+	aux = list_sorted(BloqueadoES,&orderById);
+	for(int i=0;i<list_size(aux);i++){
+		tripulante = list_get(aux,i);
+
+		mover_tripulante(BloqueadoES,BloqueadoEM,tripulante->tid,"BLOQUEADOEM");
+	}
+	list_destroy(aux);
 	aux = list_sorted(Listo,&orderById);
 
 	for(int i = 0; i<list_size(aux); i++){

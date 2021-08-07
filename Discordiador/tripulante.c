@@ -102,7 +102,10 @@ void bloqueoES(Tripulante * tripulante,char* tarea){
 
 		case Tarea_Ejecutada:
 			sleep(retardoCPU);
-			sem_post(tripulante->sem);
+			if(sabotaje==0){
+				sem_post(tripulante->sem);
+			}
+
 			break;
 	}
 
@@ -140,7 +143,9 @@ void prepararSabotaje(Tripulante * tripulante,t_list* instrucciones){
 
 	instruccion = malloc(sizeof(Instruccion));
 	instruccion->instrucion=esperar;
-	instruccion->parametro=&duracionSabotaje;
+	int *time = malloc(sizeof(int));
+	*time = duracionSabotaje;
+	instruccion->parametro=time;
 	list_add(aux,instruccion);
 
 	while(0<list_size(instrucciones)){
@@ -161,6 +166,7 @@ void atenderSabotaje(Tripulante * tripulante,t_list* instrucciones){
 	Instruccion* inst = list_get(instrucciones,0);
 	instruccion = inst->instrucion;
 	int retorno = instruccion((inst->parametro),tripulante);
+	sleep(retardoCPU);
 	if(retorno==1 || retorno == -5){
 		list_remove(instrucciones,0);
 

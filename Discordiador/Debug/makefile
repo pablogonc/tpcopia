@@ -28,7 +28,7 @@ all: Discordiador
 Discordiador: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: Cross GCC Linker'
-	gcc -L"/home/utnso/workspace/tp-2021-1c-Error-404/utilidades/Debug" -o "Discordiador" $(OBJS) $(USER_OBJS) $(LIBS)
+	gcc -L"/home/utnso/tp-2021-1c-Error-404/utilidades/Debug" -o "Discordiador" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 

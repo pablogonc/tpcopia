@@ -231,9 +231,10 @@ void updateIms(file_t** file){
 
 
 	FILE* archivo = fopen(string_from_format("%s/Files/%s.ims",puntoDeMontaje,nombre),"w");
-
-	fprintf(archivo,"SIZE=%d\n",(*file)->size);
-	fprintf(archivo,"BLOCK_COUNT=%d\n",(*file)->block_count);
+	int fsize =(*file)->size;
+	fprintf(archivo,"SIZE=%lu\n",fsize);
+	uint32_t fbcount=(*file)->block_count;
+	fprintf(archivo,"BLOCK_COUNT=%lu\n",fbcount);
 
 	//--------------------------------------- WARNING//todo
 
@@ -417,7 +418,7 @@ void leerArchivo(file_t** aux,char* nombre){
 	}
 	if((*aux)==NULL){
 
-		(*aux) = malloc(sizeof(file_t));
+		(*aux) = calloc(1,sizeof(file_t));
 
 		char * path = string_from_format("%s/Files/%s.ims",puntoDeMontaje,nombre);
 
@@ -435,7 +436,7 @@ void leerArchivo(file_t** aux,char* nombre){
 
 	}
 
-/*
+
 	printf("\nSIZE=%d\n",(*aux)->size);
 	printf("BLOCK_COUNT=%d\n",(*aux)->block_count);
 	printf("BLOCKS=[");
@@ -449,7 +450,7 @@ void leerArchivo(file_t** aux,char* nombre){
 	printf("CARACTER_LLENADO=%c\n",(*aux)->caracterLlenado);
 	printf("MD5_ARCHIVO=%s\n",(*aux)->MD5);
 	printf("BLOCKS=[%d]\n",(*aux)->blocks[(*aux)->block_count - 1]);
-*/
+
 
 	//free(arrayNumbers);//todo  por si acaso
 
@@ -540,6 +541,10 @@ void getArrayV2(int** array,char* texto,int tamanio){
 
 	char * algo = strtok(texto,"[");
 
+
+	if(array!=NULL){
+		free(*array);
+	}
 
 	(*array) =malloc(sizeof(int)*tamanio);
 	char* aux;
@@ -670,8 +675,7 @@ void verificarBitmap(char*nombre){
 		for(int i = 0;i<aux->block_count;i++){
 			bitarray_set_bit(superBloque.bitmap,aux->blocks[i]);
 		}
-		free(aux->blocks);
-		free(aux);
+
 	}
 }
 
@@ -708,7 +712,6 @@ int sabotaje3(char * nombre){
 	// conseguir los bloques que tenga el archivo
 	// contar la cantidad de cosas que tengan esos bloques.
 	// validar contra el size del archivo.
-
 
 	file_t* aux;
 	leerArchivo(&aux,nombre);

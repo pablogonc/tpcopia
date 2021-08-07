@@ -15,22 +15,40 @@ int salir=0;
 int socket_disc;
 char*IP;
 
+sem_t* semSignal;
+
+
+
 void sabotaje(){
 	sem_wait(ocupado);
+
+
 	log_warning(logger,"mando aviso SABOTAJE");
 	t_paquete* p = crear_paquete(SABOTAJE);
-
-	int *coords = posicionSabotaje();
-
-	agregar_a_paquete(p,&coords[0],sizeof(int));
-	agregar_a_paquete(p,&coords[1],sizeof(int));
+	int * coords = posicionSabotaje();
+	int x =coords[0];
+	int y =coords[1];
+	printf("%d , %d",x,y);
+	agregar_a_paquete(p,&x,sizeof(int));
+	agregar_a_paquete(p,&y,sizeof(int));
 	enviar_paquete(p,socket_disc);
 	eliminar_paquete(p);
 	free(coords);
 }
 
+void signals(){
+	printf("\nPID: %lu\n",getpid());
+	signal(SIGUSR1,&sabotaje);
+	sem_wait(semSignal);
+}
 
 int main(void){
+
+	semSignal = (sem_t*)malloc(sizeof(sem_t));
+	sem_init(semSignal,1,0);
+	pthread_t hilosignal;
+	pthread_create(&hilosignal,NULL,&signals,NULL);
+	//
 	printf("Iniciando I Mongo Store \n");
 
 	logger = log_create("MongoStore.log", "MongoStore", 1, LOG_LEVEL_DEBUG);
@@ -89,20 +107,35 @@ int main(void){
 
 	//crearArchivo("Oxigeno");
 	//escribirBloque(obtenerFile("Oxigeno"));
+	/*file_t *aux;
+	printf("insertando bloques \n");
+	insertarEnBloque("Oxigeno",200);
+	insertarEnBloque("Oxigeno",200);
+	printf("entro 2\n");
 
+	leerArchivo(&aux,"Oxigeno");
 
+	printf("entro a update\n");
+	updateIms(&fileOxigeno);
+	printf("entro a leer 2\n");
+	leerArchivo(&aux,"Oxigeno");
+	readline(" -ya sali--");
+	readline(" -ya sali--");*/
 //---------------------------------------------------------------------------------//
-/*
-	insertarEnBloque("Oxigeno",100);
+
+	/*insertarEnBloque("Oxigeno",100);
 	insertarEnBloque("Basura",100);
 	insertarEnBloque("Comida",100);
 	printf("caracter de llenado = %c\n",fileOxigeno->caracterLlenado);
 	update();
-
+	printf("caracter de llenado = %c\n",fileOxigeno->caracterLlenado);
 	sabotaje1();
+	printf("caracter de llenado = %c\n",fileOxigeno->caracterLlenado);
 	sabotaje2();
 
 	if(access(string_from_format("%s/Files/Oxigeno.ims", puntoDeMontaje),F_OK)==0){
+		printf("caracter de llenado = %c\n",fileOxigeno->caracterLlenado);
+			readline(" ddddd");
 		 sabotaje3("Oxigeno");
 		 sabotaje4("Oxigeno");
 		 sabotaje5("Oxigeno");
@@ -120,8 +153,8 @@ int main(void){
 		 sabotaje5("Comida");
 	}
 
-	readline(" ");
-*/
+	readline(" ");*/
+
 	pthread_t hiloSincronizador;
 	pthread_create(&hiloSincronizador,NULL,&sincronizar,NULL);
 
@@ -133,8 +166,11 @@ int main(void){
 
 
 //-------------------------------------------------------------------------------------------------------------
-	printf("\nPID: %d\n",getpid());
-	signal(SIGUSR1,&sabotaje);
+
+
+
+	printf("\nsdsdPID: %lu\n", getpid());
+
 	pthread_t hilos[MAXCLIENTES];
 	int clientes[MAXCLIENTES];
 	int id=0;

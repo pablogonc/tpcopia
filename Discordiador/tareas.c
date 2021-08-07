@@ -73,6 +73,7 @@ int esperar(int* tiempo,Tripulante * tripulante){
 		return Tarea_Ejecutada;
 	}else{
 		if(sabotaje == 1){
+			free(tiempo);
 			return -5;
 		}
 		return Tarea_Completada;
@@ -88,7 +89,7 @@ int invocarFSCK(int* sabotaje ,Tripulante * tripulante){
 	if(recibir_operacion(tripulante->storeSocket) == FSCK){
 
 		largo_paquete(tripulante->storeSocket);
-		*sabotaje = -1;
+
 		*(int*)recibir(tripulante->storeSocket);
 		return Tarea_Completada;//
 
