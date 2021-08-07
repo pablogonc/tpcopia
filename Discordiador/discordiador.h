@@ -21,7 +21,7 @@
 
 enum socket {RAM,STORE};
 t_log* logger;
-
+char* algoritmoPlanificacion;
 //estados
 typedef enum //estados del tripu
 {

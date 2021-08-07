@@ -47,13 +47,16 @@ int iniciar_tripulante(Tripulante * tripulante){
 				informar_inicio(tripulante,ram_socket);
 
 				actualizarTarea(tripulante,tarea);
-
+				tripulante->estado = "LISTO";
+				enviarInterrupcion();
 				break;
 
 			case TRABAJANDO:
 
 				if(hayInstrucciones(tripulante,tarea)){
 					trabajando(tripulante, tripulante->instrucciones, ram_socket, store_socket, tarea);
+				}else{
+					sem_post(tripulante->sem);
 				}
 
 				break;
@@ -96,6 +99,8 @@ void bloqueoES(Tripulante * tripulante,char* tarea){
 			list_remove(tripulante->instrucciones,0);
 
 			actualizarTarea(tripulante,tarea);
+			tripulante->estado = "LISTO";
+			enviarInterrupcion();
 			log_info(logger, "Tripulante movido  a listo");
 
 			break;
@@ -283,7 +288,7 @@ char * pedirTarea(Tripulante * tripulante,int socketRam){
 
 			largo_paquete(socketRam);
 
-			tripulante->estado = "LISTO";
+
 
 			return (char*) recibir(socketRam);
 			break;
@@ -291,7 +296,7 @@ char * pedirTarea(Tripulante * tripulante,int socketRam){
 		case NOHAYTAREAS:
 			largo_paquete(socketRam);
 			expulsar(tripulante->tid,socketRam);
-			sem_post(tripulante->sem);
+			//sem_post(tripulante->sem);
 			return NULL;
 			break;
 		default: //CODIGO NO ESPERADO
@@ -312,9 +317,13 @@ void actualizarTarea(Tripulante* tripulante,char* tarea){
 
 	if( tarea != NULL ){ //habian tareas para asignar
 		separarEnInstrucciones(tarea,tripulante->instrucciones,tripulante);
+
+	}else{
+		enviarInterrupcion();
 	}
 
-	enviarInterrupcion();
+
+	//enviarInterrupcion();
 }
 
 int hayInstrucciones(Tripulante* tripulante,char* tarea){

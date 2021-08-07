@@ -10,7 +10,7 @@
 //variables
 ///////
 int gradoMultiTarea;
-char* algoritmoPlanificacion="RR";
+
 int quantum=3;
 int salir = 0;
 
