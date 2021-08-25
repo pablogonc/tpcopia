@@ -5812,3 +5812,148 @@ p	ð÷f·2908'
 [INFO] 02:58:10:828 MongoStore/(12437:12437): I Mongo Store: - Cliente Conectado
 [INFO] 02:58:19:432 MongoStore/(12437:12626): Sincronizacion completada
 [INFO] 02:58:34:442 MongoStore/(12437:12626): Sincronizacion completada
+[INFO] 02:58:49:452 MongoStore/(12437:12626): Sincronizacion completada
+[WARNING] 02:58:59:862 MongoStore/(12437:12867): el cliente se desconecto
+[WARNING] 02:59:01:855 MongoStore/(12437:12865): el cliente se desconecto
+[INFO] 02:59:04:464 MongoStore/(12437:12626): Sincronizacion completada
+[INFO] 02:59:19:472 MongoStore/(12437:12626): Sincronizacion completada
+[INFO] 02:59:34:480 MongoStore/(12437:12626): Sincronizacion completada
+[WARNING] 02:59:41:878 MongoStore/(12437:12862): el cliente se desconecto
+[WARNING] 02:59:43:875 MongoStore/(12437:12863): el cliente se desconecto
+[INFO] 02:59:49:495 MongoStore/(12437:12626): Sincronizacion completada
+[WARNING] 02:59:53:890 MongoStore/(12437:12868): el cliente se desconecto
+[WARNING] 02:59:56:884 MongoStore/(12437:12866): el cliente se desconecto
+[INFO] 03:00:04:512 MongoStore/(12437:12626): Sincronizacion completada
+[WARNING] 03:00:06:897 MongoStore/(12437:12869): el cliente se desconecto
+[INFO] 03:00:19:531 MongoStore/(12437:12626): Sincronizacion completada
+[INFO] 03:00:34:540 MongoStore/(12437:12626): Sincronizacion completada
+[INFO] 03:00:49:552 MongoStore/(12437:12626): Sincronizacion completada
+[INFO] 03:01:04:560 MongoStore/(12437:12626): Sincronizacion completada
+[INFO] 03:01:19:570 MongoStore/(12437:12626): Sincronizacion completada
+[INFO] 03:01:34:580 MongoStore/(12437:12626): Sincronizacion completada
+[INFO] 03:01:49:588 MongoStore/(12437:12626): Sincronizacion completada
+[INFO] 03:02:04:632 MongoStore/(12437:12626): Sincronizacion completada
+[INFO] 03:02:19:662 MongoStore/(12437:12626): Sincronizacion completada
+[INFO] 03:02:34:677 MongoStore/(12437:12626): Sincronizacion completada
+[INFO] 03:02:49:680 MongoStore/(12437:12626): Sincronizacion completada
+[INFO] 03:03:04:685 MongoStore/(12437:12626): Sincronizacion completada
+[INFO] 03:03:19:691 MongoStore/(12437:12626): Sincronizacion completada
+[INFO] 03:03:34:694 MongoStore/(12437:12626): Sincronizacion completada
+[INFO] 03:03:49:698 MongoStore/(12437:12626): Sincronizacion completada
+[INFO] 03:04:04:705 MongoStore/(12437:12626): Sincronizacion completada
+[WARNING] 03:04:14:896 MongoStore/(12437:12632): el cliente se desconecto
+[INFO] 03:04:37:984 MongoStore/(13301:13301): filesystem iniciado 
+
+[INFO] 03:04:37:991 MongoStore/(13301:13301): Iniciando servidor I Mongo Store 
+
+[INFO] 03:04:37:991 MongoStore/(13301:13301): I Mongo Store: - listo para recibir al cliente
+[INFO] 03:04:38:467 MongoStore/(13301:13301): I Mongo Store: - Cliente Conectado
+[INFO] 03:04:52:998 MongoStore/(13301:13509): Sincronizacion completada
+[INFO] 03:05:08:000 MongoStore/(13301:13509): Sincronizacion completada
+[INFO] 03:05:23:001 MongoStore/(13301:13509): Sincronizacion completada
+[INFO] 03:05:38:002 MongoStore/(13301:13509): Sincronizacion completada
+[INFO] 03:05:53:003 MongoStore/(13301:13509): Sincronizacion completada
+[WARNING] 03:05:53:196 MongoStore/(13301:13511): el cliente se desconecto
+[INFO] 03:06:10:105 MongoStore/(13637:13637): filesystem iniciado 
+
+[INFO] 03:06:10:112 MongoStore/(13637:13637): Iniciando servidor I Mongo Store 
+
+[INFO] 03:06:10:112 MongoStore/(13637:13637): I Mongo Store: - listo para recibir al cliente
+[INFO] 03:06:25:119 MongoStore/(13637:13846): Sincronizacion completada
+[INFO] 03:06:37:849 MongoStore/(13637:13637): I Mongo Store: - Cliente Conectado
+[INFO] 03:06:40:120 MongoStore/(13637:13846): Sincronizacion completada
+[INFO] 03:06:55:123 MongoStore/(13637:13846): Sincronizacion completada
+[INFO] 03:07:10:124 MongoStore/(13637:13846): Sincronizacion completada
+[INFO] 03:07:25:125 MongoStore/(13637:13846): Sincronizacion completada
+[INFO] 03:07:40:126 MongoStore/(13637:13846): Sincronizacion completada
+[INFO] 03:07:55:128 MongoStore/(13637:13846): Sincronizacion completada
+[INFO] 03:08:10:129 MongoStore/(13637:13846): Sincronizacion completada
+[INFO] 03:08:25:130 MongoStore/(13637:13846): Sincronizacion completada
+[INFO] 03:08:40:131 MongoStore/(13637:13846): Sincronizacion completada
+[INFO] 03:08:55:132 MongoStore/(13637:13846): Sincronizacion completada
+[INFO] 03:09:10:134 MongoStore/(13637:13846): Sincronizacion completada
+[INFO] 03:09:25:135 MongoStore/(13637:13846): Sincronizacion completada
+[INFO] 03:09:40:136 MongoStore/(13637:13846): Sincronizacion completada
+[INFO] 03:09:55:137 MongoStore/(13637:13846): Sincronizacion completada
+[INFO] 03:10:10:139 MongoStore/(13637:13846): Sincronizacion completada
+[INFO] 03:10:25:140 MongoStore/(13637:13846): Sincronizacion completada
+[INFO] 03:10:40:141 MongoStore/(13637:13846): Sincronizacion completada
+[INFO] 03:10:55:142 MongoStore/(13637:13846): Sincronizacion completada
+[INFO] 03:11:10:144 MongoStore/(13637:13846): Sincronizacion completada
+[INFO] 03:11:25:146 MongoStore/(13637:13846): Sincronizacion completada
+[INFO] 03:11:40:148 MongoStore/(13637:13846): Sincronizacion completada
+[INFO] 03:11:55:149 MongoStore/(13637:13846): Sincronizacion completada
+[INFO] 03:12:10:150 MongoStore/(13637:13846): Sincronizacion completada
+[INFO] 03:12:25:152 MongoStore/(13637:13846): Sincronizacion completada
+[INFO] 03:12:40:153 MongoStore/(13637:13846): Sincronizacion completada
+[INFO] 03:12:55:154 MongoStore/(13637:13846): Sincronizacion completada
+[INFO] 03:13:10:156 MongoStore/(13637:13846): Sincronizacion completada
+[INFO] 03:13:25:161 MongoStore/(13637:13846): Sincronizacion completada
+[INFO] 03:13:40:163 MongoStore/(13637:13846): Sincronizacion completada
+[INFO] 03:13:55:165 MongoStore/(13637:13846): Sincronizacion completada
+[INFO] 03:14:10:166 MongoStore/(13637:13846): Sincronizacion completada
+[INFO] 03:14:25:167 MongoStore/(13637:13846): Sincronizacion completada
+[INFO] 03:14:40:182 MongoStore/(13637:13846): Sincronizacion completada
+[WARNING] 03:14:51:625 MongoStore/(13637:13876): el cliente se desconecto
+[INFO] 03:15:17:446 MongoStore/(14386:14386): filesystem iniciado 
+
+[INFO] 03:15:17:456 MongoStore/(14386:14386): Iniciando servidor I Mongo Store 
+
+[INFO] 03:15:17:456 MongoStore/(14386:14386): I Mongo Store: - listo para recibir al cliente
+[INFO] 03:15:20:919 MongoStore/(14386:14386): I Mongo Store: - Cliente Conectado
+[INFO] 03:15:32:456 MongoStore/(14386:14596): Sincronizacion completada
+[INFO] 03:15:47:458 MongoStore/(14386:14596): Sincronizacion completada
+[INFO] 03:16:02:459 MongoStore/(14386:14596): Sincronizacion completada
+[INFO] 03:16:17:461 MongoStore/(14386:14596): Sincronizacion completada
+[INFO] 03:16:32:462 MongoStore/(14386:14596): Sincronizacion completada
+[INFO] 03:16:47:463 MongoStore/(14386:14596): Sincronizacion completada
+[INFO] 03:17:02:465 MongoStore/(14386:14596): Sincronizacion completada
+[INFO] 03:17:17:466 MongoStore/(14386:14596): Sincronizacion completada
+[WARNING] 03:17:23:757 MongoStore/(14386:14600): el cliente se desconecto
+[INFO] 03:17:37:082 MongoStore/(14786:14786): iniciando filesystem... 
+
+[INFO] 03:17:37:092 MongoStore/(14786:14786): superBloque creado 
+
+[INFO] 03:17:37:093 MongoStore/(14786:14786): creado bloque...
+
+[INFO] 03:17:37:093 MongoStore/(14786:14786): bloque.bin creado 
+
+[INFO] 03:17:38:666 MongoStore/(14786:14786): filesystem iniciado 
+
+[INFO] 03:17:38:666 MongoStore/(14786:14786): Iniciando servidor I Mongo Store 
+
+[INFO] 03:17:38:666 MongoStore/(14786:14786): I Mongo Store: - listo para recibir al cliente
+[INFO] 03:17:40:494 MongoStore/(14786:14786): I Mongo Store: - Cliente Conectado
+[INFO] 03:17:53:670 MongoStore/(14786:15008): Sincronizacion completada
+[INFO] 03:17:55:319 MongoStore/(14786:14786): I Mongo Store: - Cliente Conectado
+[INFO] 03:17:55:319 MongoStore/(14786:14786): I Mongo Store: - Cliente Conectado
+[INFO] 03:17:55:320 MongoStore/(14786:14786): I Mongo Store: - Cliente Conectado
+[INFO] 03:17:55:320 MongoStore/(14786:14786): I Mongo Store: - Cliente Conectado
+[INFO] 03:17:55:320 MongoStore/(14786:14786): I Mongo Store: - Cliente Conectado
+[INFO] 03:17:55:321 MongoStore/(14786:14786): I Mongo Store: - Cliente Conectado
+[INFO] 03:18:08:681 MongoStore/(14786:15008): Sincronizacion completada
+[INFO] 03:18:23:702 MongoStore/(14786:15008): Sincronizacion completada
+[INFO] 03:18:38:708 MongoStore/(14786:15008): Sincronizacion completada
+[INFO] 03:18:53:715 MongoStore/(14786:15008): Sincronizacion completada
+[WARNING] 03:19:01:357 MongoStore/(14786:15037): el cliente se desconecto
+[WARNING] 03:19:03:361 MongoStore/(14786:15036): el cliente se desconecto
+[WARNING] 03:19:03:361 MongoStore/(14786:15035): el cliente se desconecto
+[WARNING] 03:19:06:360 MongoStore/(14786:15034): el cliente se desconecto
+[WARNING] 03:19:06:360 MongoStore/(14786:15033): el cliente se desconecto
+[INFO] 03:19:08:720 MongoStore/(14786:15008): Sincronizacion completada
+[WARNING] 03:19:12:364 MongoStore/(14786:15038): el cliente se desconecto
+[INFO] 03:19:23:741 MongoStore/(14786:15008): Sincronizacion completada
+[INFO] 03:19:38:780 MongoStore/(14786:15008): Sincronizacion completada
+[INFO] 03:19:53:815 MongoStore/(14786:15008): Sincronizacion completada
+[INFO] 03:20:08:830 MongoStore/(14786:15008): Sincronizacion completada
+[INFO] 03:20:23:846 MongoStore/(14786:15008): Sincronizacion completada
+[INFO] 03:20:38:861 MongoStore/(14786:15008): Sincronizacion completada
+[INFO] 03:20:53:879 MongoStore/(14786:15008): Sincronizacion completada
+[WARNING] 03:20:56:106 MongoStore/(14786:15010): el cliente se desconecto
+[INFO] 23:50:04:400 MongoStore/(20561:20561): filesystem iniciado 
+
+[INFO] 23:50:04:428 MongoStore/(20561:20561): Iniciando servidor I Mongo Store 
+
+[INFO] 23:50:04:429 MongoStore/(20561:20561): I Mongo Store: - listo para recibir al cliente
+[INFO] 23:50:05:469 MongoStore/(20561:20561): I Mongo Store: - Cliente Conectado
+[WARNING] 23:50:08:090 MongoStore/(20561:20777): el cliente se desconecto

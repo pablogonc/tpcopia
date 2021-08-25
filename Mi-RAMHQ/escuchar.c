@@ -57,7 +57,7 @@ int escuchar(int cliente){
 			sem_post(memoria);
 
 			sem_wait(memoria);
-			agregarInstrucciones(pid, pSize, content);
+			agregarInstrucciones(pid, pSize-4, content);
 			sem_post(memoria);
 
 			paquete = crear_paquete(INICIAR_PATOTA);
